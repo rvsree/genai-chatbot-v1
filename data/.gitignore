@@ -1,0 +1,6 @@
+# Persisted vector DB and logs
+chromadb/
+*.log
+
+# Allow documents by default; comment next line to include PDFs
+# documents/*.pdf

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Editors/IDE
+.idea/
+.vscode/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.cache/
+
+# Data and artifacts (keep PDFs if you want them versioned)
+data/chromadb/
+data/scripts/
+data/*.log
+
+# Optional: ignore PDFs if not versioning source files
+# data/documents/*.pdf

@@ -1,0 +1,903 @@
+2025-10-30 07:03:00,569 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:03:27,182 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:08:49,204 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:26:36,543 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:27:45,423 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:27:49,884 [INFO] gl_rag_app: Trying to connect with OpenAI
+2025-10-30 07:27:51,506 [INFO] gl_rag_app: Successfully connected to OpenAI
+2025-10-30 07:27:51,506 [ERROR] gl_rag_app: Failed to connect to OpenAI
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\router\clients.py", line 35, in test_openai_client
+    "default_model": cfg.openai_default_model
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\pydantic\main.py", line 856, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'AppConfig' object has no attribute 'openai_default_model'. Did you mean: 'openai_llm_model'?
+2025-10-30 07:29:18,488 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:29:35,028 [INFO] gl_rag_app: Trying to connect with OpenAI
+2025-10-30 07:29:36,090 [INFO] gl_rag_app: Successfully connected to OpenAI
+2025-10-30 07:29:45,825 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 07:29:46,091 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 07:33:39,782 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 07:33:40,044 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 07:33:40,523 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:34:49,793 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 07:34:50,067 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 07:34:50,488 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:35:19,916 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 07:35:20,199 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 07:35:20,627 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:39:37,485 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 07:39:37,813 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 07:42:00,656 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 07:42:00,899 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 07:42:00,906 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:42:07,883 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 07:42:08,121 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 07:42:08,127 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 07:43:43,377 [INFO] gl_rag_app: Trying to index 2 document(s)
+2025-10-30 07:43:43,813 [INFO] gl_rag_app: Successfully indexed 2 document(s)
+2025-10-30 07:44:14,709 [INFO] gl_rag_app: Trying to retrieve with query='datacenter GPUs'
+2025-10-30 07:44:14,744 [INFO] gl_rag_app: Successfully retrieved 1 result sets
+2025-10-30 08:24:26,351 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 08:24:26,580 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 08:24:26,586 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 08:32:00,350 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 08:32:00,581 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 08:32:00,605 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 08:45:18,484 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 08:45:18,725 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 08:45:18,751 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 08:48:38,218 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 08:48:38,464 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 08:48:38,490 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 08:54:10,275 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 08:54:10,514 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 08:54:10,540 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 08:56:48,718 [INFO] gl_rag_app: Saved PDF to data\documents\tesla-10k-2019.pdf
+2025-10-30 08:57:23,516 [INFO] gl_rag_app: Trying to index document id=tesla-2019
+2025-10-30 08:57:24,737 [INFO] gl_rag_app: Successfully indexed id=tesla-2019
+2025-10-30 09:00:09,551 [INFO] gl_rag_app: Trying to index document id=tesla-2019
+2025-10-30 09:00:10,590 [INFO] gl_rag_app: Successfully indexed id=tesla-2019
+2025-10-30 09:02:21,994 [INFO] gl_rag_app: Trying to retrieve with query='annual report'
+2025-10-30 09:02:21,995 [ERROR] gl_rag_app: Failed to retrieve
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 90, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 294, in _validate_and_prepare_query_request
+    validate_filter_set(filter_set=filters)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 345, in validate_filter_set
+    validate_where(filter_set["where"])
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 604, in validate_where
+    raise ValueError(f"Expected where to have exactly one operator, got {where}")
+ValueError: Expected where to have exactly one operator, got {'advisor_id': 'advisor100', 'client_id': 'client123', 'doc_type': 'tesla'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\service\document_service.py", line 66, in query
+    res = self.collection.query(query_texts=[query_text], n_results=n_results, where=where)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\Collection.py", line 211, in query
+    query_request = self._validate_and_prepare_query_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 93, in wrapper
+    raise type(e)(msg).with_traceback(e.__traceback__)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 90, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 294, in _validate_and_prepare_query_request
+    validate_filter_set(filter_set=filters)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 345, in validate_filter_set
+    validate_where(filter_set["where"])
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 604, in validate_where
+    raise ValueError(f"Expected where to have exactly one operator, got {where}")
+ValueError: Expected where to have exactly one operator, got {'advisor_id': 'advisor100', 'client_id': 'client123', 'doc_type': 'tesla'} in query.
+2025-10-30 09:02:21,999 [ERROR] gl_rag_app: RetrieveDocuments failed
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 90, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 294, in _validate_and_prepare_query_request
+    validate_filter_set(filter_set=filters)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 345, in validate_filter_set
+    validate_where(filter_set["where"])
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 604, in validate_where
+    raise ValueError(f"Expected where to have exactly one operator, got {where}")
+ValueError: Expected where to have exactly one operator, got {'advisor_id': 'advisor100', 'client_id': 'client123', 'doc_type': 'tesla'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\router\document_router.py", line 120, in retrieve_documents
+    res = documentService.query(query_text=query, n_results=n_results, where=where or None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\service\document_service.py", line 66, in query
+    res = self.collection.query(query_texts=[query_text], n_results=n_results, where=where)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\Collection.py", line 211, in query
+    query_request = self._validate_and_prepare_query_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 93, in wrapper
+    raise type(e)(msg).with_traceback(e.__traceback__)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 90, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 294, in _validate_and_prepare_query_request
+    validate_filter_set(filter_set=filters)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 345, in validate_filter_set
+    validate_where(filter_set["where"])
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 604, in validate_where
+    raise ValueError(f"Expected where to have exactly one operator, got {where}")
+ValueError: Expected where to have exactly one operator, got {'advisor_id': 'advisor100', 'client_id': 'client123', 'doc_type': 'tesla'} in query.
+2025-10-30 09:02:56,317 [INFO] gl_rag_app: Trying to retrieve with query='annual report'
+2025-10-30 09:02:56,317 [ERROR] gl_rag_app: Failed to retrieve
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 90, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 294, in _validate_and_prepare_query_request
+    validate_filter_set(filter_set=filters)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 345, in validate_filter_set
+    validate_where(filter_set["where"])
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 604, in validate_where
+    raise ValueError(f"Expected where to have exactly one operator, got {where}")
+ValueError: Expected where to have exactly one operator, got {'advisor_id': 'advisor100', 'client_id': 'client123', 'doc_type': 'tesla'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\service\document_service.py", line 66, in query
+    res = self.collection.query(query_texts=[query_text], n_results=n_results, where=where)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\Collection.py", line 211, in query
+    query_request = self._validate_and_prepare_query_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 93, in wrapper
+    raise type(e)(msg).with_traceback(e.__traceback__)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 90, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 294, in _validate_and_prepare_query_request
+    validate_filter_set(filter_set=filters)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 345, in validate_filter_set
+    validate_where(filter_set["where"])
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 604, in validate_where
+    raise ValueError(f"Expected where to have exactly one operator, got {where}")
+ValueError: Expected where to have exactly one operator, got {'advisor_id': 'advisor100', 'client_id': 'client123', 'doc_type': 'tesla'} in query.
+2025-10-30 09:02:56,318 [ERROR] gl_rag_app: RetrieveDocuments failed
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 90, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 294, in _validate_and_prepare_query_request
+    validate_filter_set(filter_set=filters)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 345, in validate_filter_set
+    validate_where(filter_set["where"])
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 604, in validate_where
+    raise ValueError(f"Expected where to have exactly one operator, got {where}")
+ValueError: Expected where to have exactly one operator, got {'advisor_id': 'advisor100', 'client_id': 'client123', 'doc_type': 'tesla'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\router\document_router.py", line 120, in retrieve_documents
+    res = documentService.query(query_text=query, n_results=n_results, where=where or None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\service\document_service.py", line 66, in query
+    res = self.collection.query(query_texts=[query_text], n_results=n_results, where=where)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\Collection.py", line 211, in query
+    query_request = self._validate_and_prepare_query_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 93, in wrapper
+    raise type(e)(msg).with_traceback(e.__traceback__)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 90, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\models\CollectionCommon.py", line 294, in _validate_and_prepare_query_request
+    validate_filter_set(filter_set=filters)
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 345, in validate_filter_set
+    validate_where(filter_set["where"])
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\.venv\Lib\site-packages\chromadb\api\types.py", line 604, in validate_where
+    raise ValueError(f"Expected where to have exactly one operator, got {where}")
+ValueError: Expected where to have exactly one operator, got {'advisor_id': 'advisor100', 'client_id': 'client123', 'doc_type': 'tesla'} in query.
+2025-10-30 09:08:52,065 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:08:52,310 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:08:52,336 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:08:59,554 [INFO] gl_rag_app: Trying to retrieve with query='annual report' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 09:08:59,804 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:12:19,010 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:12:19,251 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:12:19,276 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:12:39,432 [INFO] gl_rag_app: Trying to retrieve with query='annual report' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 09:12:39,737 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:17:19,105 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:17:19,347 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:17:19,373 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:20:56,155 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:20:56,406 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:20:56,435 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:22:05,651 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:22:05,895 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:22:05,921 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:23:49,785 [INFO] gl_rag_app: Trying to retrieve with query='annual report' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 09:23:50,018 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:33:53,579 [INFO] gl_rag_app: Trying to delete id=tesla-2019
+2025-10-30 09:33:53,660 [INFO] gl_rag_app: Successfully deleted id=tesla-2019
+2025-10-30 09:33:59,550 [INFO] gl_rag_app: Trying to retrieve with query='annual report' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 09:33:59,585 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:35:22,743 [INFO] gl_rag_app: Saved PDF to data\documents\tesla-10k-2019.pdf
+2025-10-30 09:35:56,015 [INFO] gl_rag_app: Trying to index document id=tesla-2019
+2025-10-30 09:35:56,791 [INFO] gl_rag_app: Successfully indexed id=tesla-2019
+2025-10-30 09:36:42,472 [INFO] gl_rag_app: Trying to retrieve with query='annual report' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 09:36:42,509 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:41:06,572 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:41:06,821 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:42:00,669 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:42:00,903 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:42:01,452 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:42:01,455 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:42:01,482 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:44:13,795 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:44:14,037 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:44:14,065 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:44:14,068 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:44:14,554 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:44:19,583 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:44:19,821 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:44:19,851 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:44:19,854 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:44:20,352 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:44:25,123 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:44:25,371 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:44:25,401 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:44:25,406 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:44:25,913 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:44:32,822 [INFO] gl_rag_app: Trying to retrieve with query='annual report' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 09:44:33,077 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:46:37,677 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:46:37,920 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:46:37,948 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:46:37,950 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:46:38,432 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:46:49,312 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:46:49,560 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:46:49,588 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:46:49,590 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:46:50,074 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:47:54,806 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:47:55,055 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:47:55,089 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:47:55,092 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:47:55,589 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:47:58,531 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 09:47:58,531 [INFO] gl_rag_app: Trying to retrieve with query='What was Tesla's total revenue in 2019?' where=None
+2025-10-30 09:47:58,795 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:47:58,796 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 09:51:02,610 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:51:02,848 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:51:02,883 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:51:02,885 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:51:46,606 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:51:46,859 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:51:46,891 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 09:51:46,894 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 09:51:47,417 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 09:51:54,026 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 09:51:54,027 [INFO] gl_rag_app: Trying to retrieve with query='What was Tesla's total revenue in 2019?' where=None
+2025-10-30 09:51:54,270 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:51:54,270 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 09:51:55,833 [INFO] gl_rag_app: Successfully generated answer
+2025-10-30 09:56:04,405 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 09:56:04,406 [INFO] gl_rag_app: Trying to retrieve with query='Summarize key risk factors mentioned in the filing' where=None
+2025-10-30 09:56:04,444 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:56:04,444 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 09:56:07,683 [INFO] gl_rag_app: Successfully generated answer
+2025-10-30 09:56:20,099 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 09:56:20,099 [INFO] gl_rag_app: Trying to retrieve with query='How did automotive gross margin change year over year?' where=None
+2025-10-30 09:56:20,137 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:56:20,138 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 09:56:20,962 [INFO] gl_rag_app: Successfully generated answer
+2025-10-30 09:56:36,003 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 09:56:36,003 [INFO] gl_rag_app: Trying to retrieve with query='List major segments and briefly describe what they include.' where=None
+2025-10-30 09:56:36,041 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:56:36,041 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 09:56:37,250 [INFO] gl_rag_app: Successfully generated answer
+2025-10-30 09:57:36,721 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 09:57:36,721 [INFO] gl_rag_app: Trying to retrieve with query='What were the primary drivers of revenue growth this year?' where=None
+2025-10-30 09:57:36,760 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 09:57:36,760 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 09:57:37,760 [INFO] gl_rag_app: Successfully generated answer
+2025-10-30 09:58:40,649 [INFO] gl_rag_app: Saved PDF to data\documents\tesla-10k-2020.pdf
+2025-10-30 09:59:44,379 [INFO] gl_rag_app: Trying to index document id=tesla-2020
+2025-10-30 09:59:46,368 [INFO] gl_rag_app: Successfully indexed id=tesla-2020
+2025-10-30 10:00:08,289 [INFO] gl_rag_app: Saved PDF to data\documents\tesla-10k-2021.pdf
+2025-10-30 10:00:20,268 [INFO] gl_rag_app: Trying to index document id=tesla-2021
+2025-10-30 10:00:20,498 [INFO] gl_rag_app: Successfully indexed id=tesla-2021
+2025-10-30 10:00:35,485 [INFO] gl_rag_app: Saved PDF to data\documents\tesla-10k-2022.pdf
+2025-10-30 10:01:20,114 [INFO] gl_rag_app: Trying to index document id=tesla-2022
+2025-10-30 10:01:21,167 [INFO] gl_rag_app: Successfully indexed id=tesla-2022
+2025-10-30 10:01:34,773 [INFO] gl_rag_app: Saved PDF to data\documents\tesla-10k-2023.pdf
+2025-10-30 10:01:54,710 [INFO] gl_rag_app: Trying to index document id=tesla-2023
+2025-10-30 10:01:55,270 [INFO] gl_rag_app: Successfully indexed id=tesla-2023
+2025-10-30 10:02:09,789 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 10:02:09,789 [INFO] gl_rag_app: Trying to retrieve with query='What were the primary drivers of revenue growth this year?' where=None
+2025-10-30 10:02:09,828 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 10:02:09,828 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 10:02:10,940 [INFO] gl_rag_app: Successfully generated answer
+2025-10-30 10:02:20,452 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 10:02:20,452 [INFO] gl_rag_app: Trying to retrieve with query='List major segments and briefly describe what they include.' where=None
+2025-10-30 10:02:20,492 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 10:02:20,492 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 10:02:21,183 [INFO] gl_rag_app: Successfully generated answer
+2025-10-30 10:02:32,013 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 10:02:32,013 [INFO] gl_rag_app: Trying to retrieve with query='How did automotive gross margin change year over year?' where=None
+2025-10-30 10:02:32,055 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 10:02:32,055 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 10:02:33,205 [INFO] gl_rag_app: Successfully generated answer
+2025-10-30 10:21:27,967 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 10:21:27,967 [INFO] gl_rag_app: Trying to retrieve with query='What was Tesla's total revenue in 2019?' where=None
+2025-10-30 10:21:28,006 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 10:21:28,006 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 10:21:30,225 [INFO] gl_rag_app: Successfully generated answer
+2025-10-30 10:21:45,581 [INFO] gl_rag_app: Trying to answer question via RAG
+2025-10-30 10:21:45,581 [INFO] gl_rag_app: Trying to retrieve with query='Summarize key risk factors mentioned in the filing' where=None
+2025-10-30 10:21:45,623 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 10:21:45,623 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 10:22:29,447 [INFO] gl_rag_app: Successfully generated answer
+2025-10-30 10:27:41,073 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 10:27:41,307 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 10:27:41,335 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 10:27:41,337 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 10:27:41,829 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 11:04:52,384 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:04:52,631 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:04:52,662 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:04:52,665 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:05:09,073 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:05:09,395 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:05:09,434 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:05:09,437 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:05:10,004 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 11:05:15,827 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:05:16,070 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:05:16,099 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:05:16,101 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:05:16,609 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 11:05:42,963 [INFO] gl_rag_app: Trying to answer question via RAG (chunked)
+2025-10-30 11:05:42,963 [INFO] gl_rag_app: Trying to retrieve with query='What was Tesla's total revenue in 2019?' where=None
+2025-10-30 11:05:43,295 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 11:05:43,299 [INFO] gl_rag_app: Trying to call OpenAI for answer generation
+2025-10-30 11:11:16,487 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:11:16,723 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:11:16,756 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:11:16,759 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:11:32,425 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:11:32,662 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:11:32,692 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:11:32,694 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:11:33,182 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 11:16:17,732 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:16:17,985 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:16:18,014 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:16:18,017 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:16:18,527 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 11:17:19,750 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:17:19,987 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:17:20,017 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:17:20,020 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:17:20,532 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 11:17:23,620 [INFO] gl_rag_app: Trying to delete id=tesla-2019
+2025-10-30 11:17:23,763 [INFO] gl_rag_app: Successfully deleted id=tesla-2019
+2025-10-30 11:17:31,944 [INFO] gl_rag_app: Trying to delete id=tesla-2020
+2025-10-30 11:17:32,122 [INFO] gl_rag_app: Successfully deleted id=tesla-2020
+2025-10-30 11:17:37,023 [INFO] gl_rag_app: Trying to delete id=tesla-2021
+2025-10-30 11:17:37,050 [INFO] gl_rag_app: Successfully deleted id=tesla-2021
+2025-10-30 11:17:43,205 [INFO] gl_rag_app: Trying to delete id=tesla-2022
+2025-10-30 11:17:43,290 [INFO] gl_rag_app: Successfully deleted id=tesla-2022
+2025-10-30 11:17:50,089 [INFO] gl_rag_app: Trying to delete id=tesla-2023
+2025-10-30 11:17:50,136 [INFO] gl_rag_app: Successfully deleted id=tesla-2023
+2025-10-30 11:18:09,618 [INFO] gl_rag_app: Saved PDF to data\documents\tesla-10k-2023.pdf
+2025-10-30 11:46:00,497 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:46:00,788 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:46:00,837 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:46:00,844 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:46:00,847 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:46:00,851 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:46:06,492 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:46:06,797 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:46:06,839 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:46:06,845 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:46:06,849 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:46:06,852 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:46:55,994 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:46:56,500 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:46:56,548 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:46:56,554 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:46:56,557 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:46:56,562 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:46:57,373 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 11:48:10,623 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:48:10,863 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:48:10,888 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:48:10,891 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:48:10,892 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 11:48:10,895 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 11:48:11,389 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 12:03:49,905 [INFO] gl_rag_app: Trying to fetch id=tesla-2019::chunk::0001
+2025-10-30 12:03:49,907 [INFO] gl_rag_app: Successfully fetched id=tesla-2019::chunk::0001
+2025-10-30 12:06:02,044 [INFO] gl_rag_app: Trying to retrieve with query='risk factors' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 12:06:02,231 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:07:04,389 [INFO] gl_rag_app: Trying to retrieve with query='risk factors' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 12:07:04,594 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:07:56,502 [INFO] gl_rag_app: Trying to fetch id=tesla-2023::chunk::0042
+2025-10-30 12:07:56,504 [INFO] gl_rag_app: Successfully fetched id=tesla-2023::chunk::0042
+2025-10-30 12:08:39,008 [INFO] gl_rag_app: Trying to retrieve with query='What was Tesla's total revenue in 2019?' where=None
+2025-10-30 12:08:39,043 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:11:42,730 [INFO] gl_rag_app: Trying to retrieve with query='How did automotive gross margin change year over year?' where=None
+2025-10-30 12:11:42,770 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:12:10,308 [INFO] gl_rag_app: Trying to retrieve with query='Report cash and cash equivalents at year end?' where=None
+2025-10-30 12:12:10,340 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:12:23,669 [INFO] gl_rag_app: Trying to retrieve with query='What were the primary drivers of revenue growth this year?' where=None
+2025-10-30 12:12:23,703 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:13:00,857 [INFO] gl_rag_app: Trying to retrieve with query='Summarize key risk factors mentioned in the filing' where=None
+2025-10-30 12:13:00,933 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:13:28,335 [INFO] gl_rag_app: Trying to retrieve with query='Summarize notable legal proceedings disclosed.' where=None
+2025-10-30 12:13:28,369 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:14:13,430 [INFO] gl_rag_app: Trying to retrieve with query='List major segments and briefly describe what they include.' where=None
+2025-10-30 12:14:13,467 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:14:36,437 [INFO] gl_rag_app: Trying to retrieve with query='Summarize notable legal proceedings disclosed.' where=None
+2025-10-30 12:14:36,472 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:14:43,319 [INFO] gl_rag_app: Trying to retrieve with query='List major segments and briefly describe what they include.' where=None
+2025-10-30 12:14:43,354 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:15:18,810 [INFO] gl_rag_app: Trying to retrieve with query='Provide a brief overview of risks related to supply chain or manufacturing.' where=None
+2025-10-30 12:15:18,846 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:15:51,657 [INFO] gl_rag_app: Trying to retrieve with query='What guidance or outlook did the company provide?' where=None
+2025-10-30 12:15:51,692 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:16:17,522 [INFO] gl_rag_app: Trying to retrieve with query='What capital expenditures are planned for the next year?' where=None
+2025-10-30 12:16:17,558 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:16:31,801 [INFO] gl_rag_app: Trying to retrieve with query='What guidance or outlook did the company provide?' where=None
+2025-10-30 12:16:31,837 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:33:22,813 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 12:33:23,094 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 12:33:23,129 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 12:33:23,131 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 12:33:23,133 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 12:33:23,136 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 12:33:23,675 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 12:36:40,420 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 12:36:40,699 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 12:37:55,462 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 12:37:55,710 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 12:37:55,739 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 12:37:55,742 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 12:37:55,743 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 12:37:55,746 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 12:37:56,266 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 12:38:02,323 [INFO] gl_rag_app: Trying to retrieve with query='What guidance or outlook did the company provide?' where=None
+2025-10-30 12:38:02,747 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:38:10,108 [INFO] gl_rag_app: Trying to retrieve with query='Provide a brief overview of risks related to supply chain or manufacturing.' where=None
+2025-10-30 12:38:10,144 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:38:18,776 [INFO] gl_rag_app: Trying to retrieve with query='Summarize notable legal proceedings disclosed.' where=None
+2025-10-30 12:38:18,810 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:38:26,230 [INFO] gl_rag_app: Trying to retrieve with query='What were the primary drivers of revenue growth this year?' where=None
+2025-10-30 12:38:26,264 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:38:33,489 [INFO] gl_rag_app: Trying to retrieve with query='What was Tesla's total revenue in 2019?' where=None
+2025-10-30 12:38:33,536 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:38:41,395 [INFO] gl_rag_app: Trying to fetch id=tesla-2023::chunk::0042
+2025-10-30 12:38:41,399 [INFO] gl_rag_app: Successfully fetched id=tesla-2023::chunk::0042
+2025-10-30 12:38:50,173 [INFO] gl_rag_app: Trying to retrieve with query='risk factors' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 12:38:50,685 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:41:40,555 [INFO] gl_rag_app: Trying to delete id=copy-tesla-10k-2023
+2025-10-30 12:41:40,565 [INFO] gl_rag_app: Successfully deleted id=copy-tesla-10k-2023
+2025-10-30 12:50:53,146 [INFO] gl_rag_app: Trying to fetch id=tesla-2023::chunk::0042
+2025-10-30 12:50:53,149 [INFO] gl_rag_app: Successfully fetched id=tesla-2023::chunk::0042
+2025-10-30 12:51:03,525 [INFO] gl_rag_app: Trying to fetch id=tesla-2023::chunk::0042
+2025-10-30 12:51:03,527 [INFO] gl_rag_app: Successfully fetched id=tesla-2023::chunk::0042
+2025-10-30 12:52:30,106 [INFO] gl_rag_app: Trying to retrieve with query='What was Tesla's total revenue in 2019?' where=None
+2025-10-30 12:52:30,142 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:52:47,686 [INFO] gl_rag_app: Trying to retrieve with query='What was Tesla's total revenue in 2015?' where=None
+2025-10-30 12:52:47,716 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:53:30,373 [INFO] gl_rag_app: Trying to retrieve with query='What was Tesla's total revenue in 2025?' where=None
+2025-10-30 12:53:30,406 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:54:05,696 [INFO] gl_rag_app: Trying to retrieve with query='risk factors' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 12:54:05,888 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:55:47,311 [INFO] gl_rag_app: Trying to retrieve with query='risk factors' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 12:55:47,560 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 12:58:08,443 [INFO] gl_rag_app: Trying to fetch id=tesla-2019::chunk::0001
+2025-10-30 12:58:08,446 [INFO] gl_rag_app: Successfully fetched id=tesla-2019::chunk::0001
+2025-10-30 13:15:58,760 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:15:59,021 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:15:59,049 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:15:59,052 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:15:59,054 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:15:59,057 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:15:59,601 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 13:16:06,137 [INFO] gl_rag_app: Trying to fetch id=tesla-2023::chunk::0042
+2025-10-30 13:16:06,153 [INFO] gl_rag_app: Successfully fetched id=tesla-2023::chunk::0042
+2025-10-30 13:16:06,153 [INFO] gl_rag_app: Trying to update metadata for id=tesla-2023::chunk::0042
+2025-10-30 13:16:06,564 [INFO] gl_rag_app: Successfully updated metadata for id=tesla-2023::chunk::0042
+2025-10-30 13:16:43,425 [INFO] gl_rag_app: Trying to fetch id=tesla-2019::chunk::0001
+2025-10-30 13:16:43,427 [INFO] gl_rag_app: Successfully fetched id=tesla-2019::chunk::0001
+2025-10-30 13:16:49,111 [INFO] gl_rag_app: Trying to fetch id=tesla-2023::chunk::0042
+2025-10-30 13:16:49,112 [INFO] gl_rag_app: Successfully fetched id=tesla-2023::chunk::0042
+2025-10-30 13:16:58,296 [INFO] gl_rag_app: Trying to retrieve with query='What was Tesla's total revenue in 2019?' where=None
+2025-10-30 13:16:58,351 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 13:17:16,593 [INFO] gl_rag_app: Trying to retrieve with query='risk factors' where={'$and': [{'advisor_id': {'$eq': 'advisor100'}}, {'client_id': {'$eq': 'client123'}}, {'doc_type': {'$eq': 'tesla'}}]}
+2025-10-30 13:17:16,825 [INFO] gl_rag_app: Successfully retrieved 1 set(s)
+2025-10-30 13:17:31,340 [INFO] gl_rag_app: Trying to delete id=copy-tesla-10k-2023
+2025-10-30 13:17:31,349 [INFO] gl_rag_app: Successfully deleted id=copy-tesla-10k-2023
+2025-10-30 13:19:56,037 [INFO] gl_rag_app: Trying to connect with OpenAI
+2025-10-30 13:19:57,161 [INFO] gl_rag_app: Successfully connected to OpenAI
+2025-10-30 13:20:57,285 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:20:57,288 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:26:07,521 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:26:07,766 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:26:07,791 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:26:07,793 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:26:07,795 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:26:07,797 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:26:08,286 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 13:26:22,249 [INFO] gl_rag_app: Trying to fetch id=tesla-2019::chunk::0001
+2025-10-30 13:26:22,264 [INFO] gl_rag_app: Successfully fetched id=tesla-2019::chunk::0001
+2025-10-30 13:26:22,264 [INFO] gl_rag_app: Trying to update metadata for id=tesla-2019::chunk::0001
+2025-10-30 13:26:22,619 [INFO] gl_rag_app: Successfully updated metadata for id=tesla-2019::chunk::0001
+2025-10-30 13:26:35,995 [INFO] gl_rag_app: Trying to fetch id=tesla-2019::chunk::0001
+2025-10-30 13:26:35,999 [INFO] gl_rag_app: Successfully fetched id=tesla-2019::chunk::0001
+2025-10-30 13:32:24,063 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:32:24,292 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:32:24,318 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:32:24,320 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:32:24,322 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:32:24,324 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:32:24,805 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 13:54:31,644 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:54:31,901 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:54:31,928 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:54:31,931 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:54:31,932 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 13:54:31,936 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 13:54:32,482 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 14:24:45,939 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 14:24:46,189 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 14:24:46,210 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 14:24:46,214 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 14:24:46,215 [INFO] gl_rag_app: Trying to connect with Chroma DB
+2025-10-30 14:24:46,218 [INFO] gl_rag_app: Successfully connected to Chroma DB
+2025-10-30 14:24:46,712 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 14:25:20,577 [INFO] gl_rag_app: Index skipped: parent_id=copy-tesla-10k-2022 already present (1192 chunks)
+2025-10-30 14:45:23,827 [INFO] gl_rag_app: [DocumentService] Trying to connect with Chroma DB
+2025-10-30 14:45:24,079 [INFO] gl_rag_app: [DocumentService] Successfully connected to Chroma DB
+2025-10-30 14:45:24,081 [INFO] gl_rag_app: [DocumentService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 14:45:24,116 [INFO] gl_rag_app: [QAService] Initialize
+2025-10-30 14:45:39,733 [INFO] gl_rag_app: [DocumentService] Trying to connect with Chroma DB
+2025-10-30 14:45:39,982 [INFO] gl_rag_app: [DocumentService] Successfully connected to Chroma DB
+2025-10-30 14:45:39,983 [INFO] gl_rag_app: [DocumentService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 14:45:40,017 [INFO] gl_rag_app: [QAService] Initialize
+2025-10-30 14:45:40,515 [INFO] gl_rag_app: [QAService] Ready model=gpt-4o-mini
+2025-10-30 14:47:05,821 [INFO] gl_rag_app: [DocumentService] Trying to connect with Chroma DB
+2025-10-30 14:47:06,068 [INFO] gl_rag_app: [DocumentService] Successfully connected to Chroma DB
+2025-10-30 14:47:06,070 [INFO] gl_rag_app: [DocumentService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 14:47:06,105 [INFO] gl_rag_app: [QAService] Initialize
+2025-10-30 14:47:06,597 [INFO] gl_rag_app: [QAService] Ready model=gpt-4o-mini
+2025-10-30 14:47:06,604 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 14:47:13,952 [INFO] gl_rag_app: [DocumentService] Count=7254
+2025-10-30 14:47:41,573 [INFO] gl_rag_app: [DocumentService] Lookup by parent_id=copy-tesla-10k-2020
+2025-10-30 14:47:41,576 [INFO] gl_rag_app: [DocumentService] Found 0 ids for parent=copy-tesla-10k-2020
+2025-10-30 14:49:00,593 [INFO] gl_rag_app: [DocumentService] Upsert items: n=2161
+2025-10-30 14:51:21,470 [INFO] gl_rag_app: [DocumentService] Upsert complete: n=2161
+2025-10-30 14:51:21,488 [INFO] gl_rag_app: [DocumentService] Count=9415
+2025-10-30 14:52:26,527 [INFO] gl_rag_app: [DocumentService] Lookup by parent_id=copy-tesla-10k-2020
+2025-10-30 14:52:26,645 [INFO] gl_rag_app: [DocumentService] Found 2161 ids for parent=copy-tesla-10k-2020
+2025-10-30 14:52:26,646 [INFO] gl_rag_app: Index skipped: parent_id=copy-tesla-10k-2020 already present (2161 chunks)
+2025-10-30 14:52:26,651 [INFO] gl_rag_app: [DocumentService] Count=9415
+2025-10-30 14:53:03,906 [INFO] gl_rag_app: [DocumentService] Lookup by parent_id=copy-tesla-10k-2023
+2025-10-30 14:53:03,942 [INFO] gl_rag_app: [DocumentService] Found 587 ids for parent=copy-tesla-10k-2023
+2025-10-30 14:53:03,942 [INFO] gl_rag_app: [DocumentService] Deleting 587 ids for parent=copy-tesla-10k-2023
+2025-10-30 14:53:05,027 [INFO] gl_rag_app: [DocumentService] Deleted 587 ids for parent=copy-tesla-10k-2023
+2025-10-30 14:53:05,030 [INFO] gl_rag_app: [DocumentService] Count=8828
+2025-10-30 14:53:14,674 [INFO] gl_rag_app: [DocumentService] Lookup by parent_id=copy-tesla-10k-2022
+2025-10-30 14:53:14,756 [INFO] gl_rag_app: [DocumentService] Found 1192 ids for parent=copy-tesla-10k-2022
+2025-10-30 14:53:14,756 [INFO] gl_rag_app: [DocumentService] Deleting 1192 ids for parent=copy-tesla-10k-2022
+2025-10-30 14:53:16,319 [INFO] gl_rag_app: [DocumentService] Deleted 1192 ids for parent=copy-tesla-10k-2022
+2025-10-30 14:53:16,322 [INFO] gl_rag_app: [DocumentService] Count=7636
+2025-10-30 14:53:20,538 [INFO] gl_rag_app: [DocumentService] Lookup by parent_id=copy-tesla-10k-20221
+2025-10-30 14:53:20,540 [INFO] gl_rag_app: [DocumentService] Found 0 ids for parent=copy-tesla-10k-20221
+2025-10-30 14:53:20,540 [INFO] gl_rag_app: [DocumentService] No chunks to delete for parent=copy-tesla-10k-20221
+2025-10-30 14:53:20,541 [INFO] gl_rag_app: [DocumentService] Count=7636
+2025-10-30 14:53:39,204 [INFO] gl_rag_app: [DocumentService] Lookup by parent_id=copy-tesla-10k-2021
+2025-10-30 14:53:39,219 [INFO] gl_rag_app: [DocumentService] Found 217 ids for parent=copy-tesla-10k-2021
+2025-10-30 14:53:39,219 [INFO] gl_rag_app: [DocumentService] Deleting 217 ids for parent=copy-tesla-10k-2021
+2025-10-30 14:53:39,550 [INFO] gl_rag_app: [DocumentService] Deleted 217 ids for parent=copy-tesla-10k-2021
+2025-10-30 14:53:39,552 [INFO] gl_rag_app: [DocumentService] Count=7419
+2025-10-30 14:53:46,907 [INFO] gl_rag_app: [DocumentService] Lookup by parent_id=copy-tesla-10k-2020
+2025-10-30 14:53:47,084 [INFO] gl_rag_app: [DocumentService] Found 2161 ids for parent=copy-tesla-10k-2020
+2025-10-30 14:53:47,086 [INFO] gl_rag_app: [DocumentService] Deleting 2161 ids for parent=copy-tesla-10k-2020
+2025-10-30 14:53:49,440 [INFO] gl_rag_app: [DocumentService] Deleted 2161 ids for parent=copy-tesla-10k-2020
+2025-10-30 14:53:49,443 [INFO] gl_rag_app: [DocumentService] Count=5258
+2025-10-30 14:54:01,362 [INFO] gl_rag_app: [DocumentService] Lookup by parent_id=copy-tesla-10k-2023
+2025-10-30 14:54:01,365 [INFO] gl_rag_app: [DocumentService] Found 0 ids for parent=copy-tesla-10k-2023
+2025-10-30 14:54:01,366 [INFO] gl_rag_app: [DocumentService] No chunks to delete for parent=copy-tesla-10k-2023
+2025-10-30 14:54:01,369 [INFO] gl_rag_app: [DocumentService] Count=5258
+2025-10-30 15:13:47,221 [INFO] gl_rag_app: [RAGService] Initialize
+2025-10-30 15:13:47,753 [INFO] gl_rag_app: [RAGService] Ready model=gpt-4o-mini
+2025-10-30 15:13:47,758 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 15:13:58,656 [INFO] gl_rag_app: [Indexing] Count=0
+2025-10-30 15:14:40,907 [INFO] gl_rag_app: [Indexing] Begin index advisor=advisor100 client=client123 doc_type=tesla
+2025-10-30 15:14:40,910 [INFO] gl_rag_app: [Indexing] File saved path=data\documents\copy-tesla-10k-2020.pdf size=2659773
+2025-10-30 15:14:40,912 [ERROR] gl_rag_app: [Indexing] Failed: 'ChromaClientService' object has no attribute 'get_ids_by_parent' lapse_ms=3.84
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\router\doc_indexing_router.py", line 84, in index
+    existing_ids = chromaClientService.get_ids_by_parent(parent_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ChromaClientService' object has no attribute 'get_ids_by_parent'
+2025-10-30 15:15:01,400 [INFO] gl_rag_app: [Indexing] Delete by parent id=copy-tesla-10k-2023
+2025-10-30 15:15:01,401 [ERROR] gl_rag_app: [Indexing] Delete failed id=copy-tesla-10k-2023: 'ChromaClientService' object has no attribute 'delete_by_parent'
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\router\doc_indexing_router.py", line 177, in delete
+    removed = chromaClientService.delete_by_parent(id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ChromaClientService' object has no attribute 'delete_by_parent'
+2025-10-30 15:15:36,647 [INFO] gl_rag_app: [RAGService] Initialize
+2025-10-30 15:15:37,155 [INFO] gl_rag_app: [RAGService] Ready model=gpt-4o-mini
+2025-10-30 15:15:37,160 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 15:15:57,370 [INFO] gl_rag_app: [Indexing] Count=0
+2025-10-30 15:16:41,770 [INFO] gl_rag_app: [Indexing] Begin index advisor=advisor100 client=client123 doc_type=tesla
+2025-10-30 15:16:41,773 [INFO] gl_rag_app: [Indexing] File saved path=data\documents\copy-tesla-10k-2019.pdf size=1630859
+2025-10-30 15:16:41,773 [ERROR] gl_rag_app: [Indexing] Failed: 'ChromaClientService' object has no attribute 'get_ids_by_parent' lapse_ms=3.33
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\router\doc_indexing_router.py", line 84, in index
+    existing_ids = chromaClientService.get_ids_by_parent(parent_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ChromaClientService' object has no attribute 'get_ids_by_parent'
+2025-10-30 15:19:27,596 [INFO] gl_rag_app: [ChromaClientService] Trying to connect with Chroma DB
+2025-10-30 15:19:27,831 [INFO] gl_rag_app: [ChromaClientService] Successfully connected to Chroma DB
+2025-10-30 15:19:27,835 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 15:19:27,863 [INFO] gl_rag_app: [ChromaClientService] Trying to connect with Chroma DB
+2025-10-30 15:19:27,866 [INFO] gl_rag_app: [ChromaClientService] Successfully connected to Chroma DB
+2025-10-30 15:19:27,869 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 15:19:27,869 [INFO] gl_rag_app: [RAGService] Initialize
+2025-10-30 15:19:27,869 [INFO] gl_rag_app: [ChromaClientService] Trying to connect with Chroma DB
+2025-10-30 15:19:27,871 [INFO] gl_rag_app: [ChromaClientService] Successfully connected to Chroma DB
+2025-10-30 15:19:27,873 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 15:19:28,356 [INFO] gl_rag_app: [RAGService] Ready model=gpt-4o-mini
+2025-10-30 15:19:28,362 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 15:19:50,455 [INFO] gl_rag_app: [Indexing] Count=5258
+2025-10-30 15:19:54,792 [INFO] gl_rag_app: [Indexing] Begin index advisor=advisor100 client=client123 doc_type=tesla
+2025-10-30 15:19:54,794 [INFO] gl_rag_app: [Indexing] File saved path=data\documents\copy-tesla-10k-2019.pdf size=1630859
+2025-10-30 15:20:29,258 [ERROR] gl_rag_app: [Indexing] Failed: 'ChromaClientService' object has no attribute 'upsert_items' lapse_ms=34466.19
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\router\doc_indexing_router.py", line 101, in index
+    parent_id, chunks = indexer.index_pdf_path(dest, base_meta)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\service\chunked_indexer_service.py", line 38, in index_pdf_path
+    self.svc.upsert_items(texts, metas, ids)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ChromaClientService' object has no attribute 'upsert_items'
+2025-10-30 15:23:45,081 [INFO] gl_rag_app: [ChromaClientService] Trying to connect with Chroma DB
+2025-10-30 15:23:45,321 [INFO] gl_rag_app: [ChromaClientService] Successfully connected to Chroma DB
+2025-10-30 15:23:45,323 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 15:23:45,354 [INFO] gl_rag_app: [ChromaClientService] Trying to connect with Chroma DB
+2025-10-30 15:23:45,356 [INFO] gl_rag_app: [ChromaClientService] Successfully connected to Chroma DB
+2025-10-30 15:23:45,359 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 15:23:45,359 [INFO] gl_rag_app: [RAGService] Initialize
+2025-10-30 15:23:45,359 [INFO] gl_rag_app: [ChromaClientService] Trying to connect with Chroma DB
+2025-10-30 15:23:45,361 [INFO] gl_rag_app: [ChromaClientService] Successfully connected to Chroma DB
+2025-10-30 15:23:45,362 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 15:23:45,860 [INFO] gl_rag_app: [RAGService] Ready model=gpt-4o-mini
+2025-10-30 15:23:45,866 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 15:24:00,899 [INFO] gl_rag_app: [Indexing] Begin index advisor=advisor100 client=client123 doc_type=tesla
+2025-10-30 15:24:00,901 [INFO] gl_rag_app: [Indexing] File saved path=data\documents\copy-tesla-10k-2019.pdf size=1630859
+2025-10-30 15:24:00,915 [INFO] gl_rag_app: [ChunkedIndexer] Extract text path=data\documents\copy-tesla-10k-2019.pdf
+2025-10-30 15:24:34,447 [INFO] gl_rag_app: [ChunkedIndexer] Upserting chunks n=1099 parent=copy-tesla-10k-2019
+2025-10-30 15:24:34,447 [ERROR] gl_rag_app: [Indexing] Failed: 'ChromaClientService' object has no attribute 'upsert_items' lapse_ms=33549.13
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\router\doc_indexing_router.py", line 101, in index
+    parent_id, chunks = indexer.index_pdf_path(dest, base_meta)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\service\chunked_indexer_service.py", line 45, in index_pdf_path
+    self.chromaClientService.upsert_items(texts, metas, ids)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ChromaClientService' object has no attribute 'upsert_items'
+2025-10-30 15:27:17,218 [INFO] gl_rag_app: [ChromaClientService] Trying to connect with Chroma DB
+2025-10-30 15:27:17,450 [INFO] gl_rag_app: [ChromaClientService] Successfully connected to Chroma DB
+2025-10-30 15:27:17,452 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 15:27:17,480 [INFO] gl_rag_app: [ChromaClientService] Trying to connect with Chroma DB
+2025-10-30 15:27:17,483 [INFO] gl_rag_app: [ChromaClientService] Successfully connected to Chroma DB
+2025-10-30 15:27:17,484 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 15:27:17,484 [INFO] gl_rag_app: [RAGService] Initialize
+2025-10-30 15:27:17,484 [INFO] gl_rag_app: [ChromaClientService] Trying to connect with Chroma DB
+2025-10-30 15:27:17,488 [INFO] gl_rag_app: [ChromaClientService] Successfully connected to Chroma DB
+2025-10-30 15:27:17,489 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection path=data/chromadb
+2025-10-30 15:27:17,980 [INFO] gl_rag_app: [RAGService] Ready model=gpt-4o-mini
+2025-10-30 15:27:17,985 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 15:27:22,530 [INFO] gl_rag_app: [Indexing] Begin index advisor=advisor100 client=client123 doc_type=tesla
+2025-10-30 15:27:22,533 [INFO] gl_rag_app: [Indexing] File saved path=data\documents\copy-tesla-10k-2019.pdf size=1630859
+2025-10-30 15:27:22,548 [INFO] gl_rag_app: [ChunkedIndexer] Extract text path=data\documents\copy-tesla-10k-2019.pdf
+2025-10-30 15:27:57,810 [INFO] gl_rag_app: [ChunkedIndexer] Upserting chunks n=1099 parent=copy-tesla-10k-2019
+2025-10-30 15:27:57,810 [ERROR] gl_rag_app: [Indexing] Failed: 'ChromaClientService' object has no attribute 'upsert_items' lapse_ms=35280.11
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\router\doc_indexing_router.py", line 101, in index
+    parent_id, chunks = indexer.index_pdf_path(dest, base_meta)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v1\doc-indexing\app\service\chunked_indexer_service.py", line 48, in index_pdf_path
+    self.chroma.upsert_items(texts, metas, ids)
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ChromaClientService' object has no attribute 'upsert_items'
+2025-10-30 15:30:52,894 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 15:30:53,137 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 15:30:53,167 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 15:30:53,171 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 15:30:53,172 [INFO] gl_rag_app: [RAGService] Initialize
+2025-10-30 15:30:53,172 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 15:30:53,176 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 15:30:53,696 [INFO] gl_rag_app: [RAGService] Ready model=gpt-4o-mini
+2025-10-30 15:30:53,701 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 15:31:19,017 [INFO] gl_rag_app: [Indexing] Begin index advisor=advisor100 client=client123 doc_type=tesla
+2025-10-30 15:31:19,020 [INFO] gl_rag_app: [Indexing] File saved path=data\documents\copy-tesla-10k-2019.pdf size=1630859
+2025-10-30 15:31:19,042 [INFO] gl_rag_app: [ChunkedIndexer] Extract text path=data\documents\copy-tesla-10k-2019.pdf
+2025-10-30 15:31:53,934 [INFO] gl_rag_app: [ChunkedIndexer] Upserting chunks n=1099 parent=copy-tesla-10k-2019
+2025-10-30 15:31:53,934 [INFO] gl_rag_app: [ChromaClientService] Upsert items n=1099
+2025-10-30 15:33:01,008 [INFO] gl_rag_app: [ChromaClientService] Upsert complete n=1099
+2025-10-30 15:33:01,009 [INFO] gl_rag_app: [ChunkedIndexer] Upsert complete parent=copy-tesla-10k-2019
+2025-10-30 15:33:01,009 [INFO] gl_rag_app: [Indexing] Success parent=copy-tesla-10k-2019 chunks=1099 lapse_ms=101992.24
+2025-10-30 15:33:12,705 [INFO] gl_rag_app: [Indexing] Count=6357
+2025-10-30 15:33:19,419 [INFO] gl_rag_app: [Indexing] Delete by parent id=copy-tesla-10k-2019
+2025-10-30 15:33:21,146 [INFO] gl_rag_app: [Indexing] Delete by parent result=Deleted all chunks for parent (removed=1099)
+2025-10-30 15:33:27,886 [INFO] gl_rag_app: [Indexing] Count=5258
+2025-10-30 15:33:34,162 [INFO] gl_rag_app: [Indexing] Begin index advisor=advisor100 client=client123 doc_type=tesla
+2025-10-30 15:33:34,166 [INFO] gl_rag_app: [Indexing] File saved path=data\documents\copy-tesla-10k-2019.pdf size=1630859
+2025-10-30 15:33:34,169 [INFO] gl_rag_app: [ChunkedIndexer] Extract text path=data\documents\copy-tesla-10k-2019.pdf
+2025-10-30 15:34:13,187 [INFO] gl_rag_app: [ChunkedIndexer] Upserting chunks n=1099 parent=copy-tesla-10k-2019
+2025-10-30 15:34:13,187 [INFO] gl_rag_app: [ChromaClientService] Upsert items n=1099
+2025-10-30 15:35:16,929 [INFO] gl_rag_app: [ChromaClientService] Upsert complete n=1099
+2025-10-30 15:35:16,930 [INFO] gl_rag_app: [ChunkedIndexer] Upsert complete parent=copy-tesla-10k-2019
+2025-10-30 15:35:16,930 [INFO] gl_rag_app: [Indexing] Success parent=copy-tesla-10k-2019 chunks=1099 lapse_ms=102767.70
+2025-10-30 15:35:35,927 [INFO] gl_rag_app: [Indexing] Count=6357
+2025-10-30 15:35:47,367 [INFO] gl_rag_app: [Indexing] Begin index advisor=advisor100 client=client123 doc_type=tesla
+2025-10-30 15:35:47,369 [INFO] gl_rag_app: [Indexing] File saved path=data\documents\copy-tesla-10k-2019.pdf size=1630859
+2025-10-30 15:35:47,428 [INFO] gl_rag_app: [Indexing] Skipped existing parent=copy-tesla-10k-2019 chunks=1099
+2025-10-30 15:36:03,160 [INFO] gl_rag_app: [RAG] QA begin question='What was Tesla's total revenue in 2019?' n_results=8 top_k=4
+2025-10-30 15:36:03,160 [INFO] gl_rag_app: [RAGService] Begin question='What was Tesla's total revenue in 2019?' n_results=8 top_k=4
+2025-10-30 15:36:03,354 [INFO] gl_rag_app: [RAGService] Retrieved sets in 193.98 ms
+2025-10-30 15:36:03,354 [INFO] gl_rag_app: [RAGService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 15:36:04,647 [INFO] gl_rag_app: [RAGService] Answer ok llm_ms=1292.38 total_ms=1486.65
+2025-10-30 15:36:04,647 [INFO] gl_rag_app: [RAG] QA ok citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019'] llm_ms=1292.38
+2025-10-30 15:36:32,624 [INFO] gl_rag_app: [RAG] QA begin question='How did automotive gross margin change year over year?' n_results=8 top_k=4
+2025-10-30 15:36:32,624 [INFO] gl_rag_app: [RAGService] Begin question='How did automotive gross margin change year over year?' n_results=8 top_k=4
+2025-10-30 15:36:32,659 [INFO] gl_rag_app: [RAGService] Retrieved sets in 35.52 ms
+2025-10-30 15:36:32,660 [INFO] gl_rag_app: [RAGService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 15:36:35,945 [INFO] gl_rag_app: [RAGService] Answer ok llm_ms=3285.82 total_ms=3321.51
+2025-10-30 15:36:35,945 [INFO] gl_rag_app: [RAG] QA ok citations=['tesla-2023', 'tesla-2019', 'copy-tesla-10k-2019', 'tesla-2022'] llm_ms=3285.82
+2025-10-30 15:37:30,048 [INFO] gl_rag_app: [Indexing] Begin reindex filename=copy-tesla-10k-2023.pdf
+2025-10-30 15:37:31,706 [INFO] gl_rag_app: [Indexing] Reindex removed parent=tesla-2019 chunks=1099
+2025-10-30 15:37:31,706 [INFO] gl_rag_app: [ChunkedIndexer] Extract text path=data\documents\copy-tesla-10k-2023.pdf
+2025-10-30 15:37:46,455 [INFO] gl_rag_app: [ChunkedIndexer] Upserting chunks n=587 parent=tesla-2019
+2025-10-30 15:37:46,455 [INFO] gl_rag_app: [ChromaClientService] Upsert items n=587
+2025-10-30 15:38:12,180 [INFO] gl_rag_app: [ChromaClientService] Upsert complete n=587
+2025-10-30 15:38:12,180 [INFO] gl_rag_app: [ChunkedIndexer] Upsert complete parent=tesla-2019
+2025-10-30 15:38:12,180 [INFO] gl_rag_app: [Indexing] Reindex success parent=tesla-2019 chunks=587 lapse_ms=42132.60
+2025-10-30 15:38:12,187 [INFO] gl_rag_app: [RAG] QA begin question='How did automotive gross margin change year over year?' n_results=8 top_k=4
+2025-10-30 15:38:12,188 [INFO] gl_rag_app: [RAGService] Begin question='How did automotive gross margin change year over year?' n_results=8 top_k=4
+2025-10-30 15:38:12,244 [INFO] gl_rag_app: [RAGService] Retrieved sets in 56.14 ms
+2025-10-30 15:38:12,245 [INFO] gl_rag_app: [RAGService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 15:38:14,908 [INFO] gl_rag_app: [RAGService] Answer ok llm_ms=2662.82 total_ms=2719.38
+2025-10-30 15:38:14,908 [INFO] gl_rag_app: [RAG] QA ok citations=['tesla-2023', 'tesla-2019', 'copy-tesla-10k-2019', 'tesla-2022'] llm_ms=2662.82
+2025-10-30 15:38:14,909 [INFO] gl_rag_app: [RAG] QA begin question='Summarize key risk factors mentioned in the filing?' n_results=8 top_k=4
+2025-10-30 15:38:14,909 [INFO] gl_rag_app: [RAGService] Begin question='Summarize key risk factors mentioned in the filing?' n_results=8 top_k=4
+2025-10-30 15:38:14,951 [INFO] gl_rag_app: [RAGService] Retrieved sets in 42.46 ms
+2025-10-30 15:38:14,951 [INFO] gl_rag_app: [RAGService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 15:38:17,530 [INFO] gl_rag_app: [RAGService] Answer ok llm_ms=2578.83 total_ms=2621.55
+2025-10-30 15:38:17,531 [INFO] gl_rag_app: [RAG] QA ok citations=['tesla-2020', 'tesla-2023', 'tesla-2019'] llm_ms=2578.83
+2025-10-30 15:39:02,132 [INFO] gl_rag_app: [RAG] QA begin question='List major segments and briefly describe what they include.' n_results=8 top_k=4
+2025-10-30 15:39:02,132 [INFO] gl_rag_app: [RAGService] Begin question='List major segments and briefly describe what they include.' n_results=8 top_k=4
+2025-10-30 15:39:02,174 [INFO] gl_rag_app: [RAGService] Retrieved sets in 41.48 ms
+2025-10-30 15:39:02,174 [INFO] gl_rag_app: [RAGService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 15:39:04,989 [INFO] gl_rag_app: [RAGService] Answer ok llm_ms=2815.56 total_ms=2857.27
+2025-10-30 15:39:04,989 [INFO] gl_rag_app: [RAG] QA ok citations=['tesla-2022', 'copy-tesla-10k-2019'] llm_ms=2815.56
+2025-10-30 15:47:55,939 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 15:47:56,196 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 15:47:56,235 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 15:47:56,241 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 15:47:56,241 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-10-30 15:47:56,241 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 15:47:56,245 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 15:48:30,606 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 15:48:35,702 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 15:48:35,934 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 15:48:35,965 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 15:48:35,969 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 15:48:35,969 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-10-30 15:48:35,969 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 15:48:35,973 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 15:48:36,461 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-10-30 15:48:36,467 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 15:49:11,427 [INFO] gl_rag_app: [RAG] user_query_eval n=3
+2025-10-30 15:49:11,428 [INFO] gl_rag_app: [RAGSearchService] Batch eval n=3
+2025-10-30 15:49:11,428 [INFO] gl_rag_app: [RAGSearchService] QA begin q='What was Tesla's total revenue in 2019?' n_results=8 top_k=4
+2025-10-30 15:49:11,747 [INFO] gl_rag_app: [RAGSearchService] Retrieved in 319.45 ms
+2025-10-30 15:49:11,747 [INFO] gl_rag_app: [RAGSearchService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 15:49:13,196 [INFO] gl_rag_app: [RAGSearchService] QA ok llm_ms=1448.41
+2025-10-30 15:49:13,196 [INFO] gl_rag_app: [RAGSearchService] QA begin q='Summarize key risk factors mentioned in the filing.' n_results=8 top_k=4
+2025-10-30 15:49:13,234 [INFO] gl_rag_app: [RAGSearchService] Retrieved in 37.83 ms
+2025-10-30 15:49:13,234 [INFO] gl_rag_app: [RAGSearchService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 15:49:16,237 [INFO] gl_rag_app: [RAGSearchService] QA ok llm_ms=3002.26
+2025-10-30 15:49:16,237 [INFO] gl_rag_app: [RAGSearchService] QA begin q='How did automotive gross margin change year over year?' n_results=8 top_k=4
+2025-10-30 15:49:16,273 [INFO] gl_rag_app: [RAGSearchService] Retrieved in 36.47 ms
+2025-10-30 15:49:16,274 [INFO] gl_rag_app: [RAGSearchService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 15:49:19,233 [INFO] gl_rag_app: [RAGSearchService] QA ok llm_ms=2959.36
+2025-10-30 15:50:43,558 [INFO] gl_rag_app: [RAG] user_query_debug q='What capital expenditures are planned for the next year?'
+2025-10-30 15:50:43,558 [INFO] gl_rag_app: [RAGSearchService] QA debug begin q='What capital expenditures are planned for the next year?'
+2025-10-30 16:55:17,150 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 16:55:19,140 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 16:55:19,169 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 16:55:19,172 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 16:55:19,172 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-10-30 16:55:19,172 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 16:55:19,175 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 16:55:19,664 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-10-30 16:55:19,671 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 16:55:30,696 [INFO] gl_rag_app: [Indexing] Count=5845
+2025-10-30 16:55:39,934 [INFO] gl_rag_app: [Indexing] Begin index advisor=advisor100 client=client123 doc_type=tesla
+2025-10-30 16:55:39,937 [INFO] gl_rag_app: [Indexing] File saved path=data\documents\copy-tesla-10k-2019.pdf size=1630859
+2025-10-30 16:55:40,006 [INFO] gl_rag_app: [Indexing] Skipped existing parent=copy-tesla-10k-2019 chunks=1099
+2025-10-30 16:56:03,903 [INFO] gl_rag_app: [Indexing] Delete by parent id=copy-tesla-10k-2019
+2025-10-30 16:56:05,369 [INFO] gl_rag_app: [Indexing] Delete by parent result=Deleted all chunks for parent (removed=1099)
+2025-10-30 16:56:13,182 [INFO] gl_rag_app: [Indexing] Count=4746
+2025-10-30 16:56:17,615 [INFO] gl_rag_app: [Indexing] Begin index advisor=advisor100 client=client123 doc_type=tesla
+2025-10-30 16:56:17,618 [INFO] gl_rag_app: [Indexing] File saved path=data\documents\copy-tesla-10k-2019.pdf size=1630859
+2025-10-30 16:56:17,621 [INFO] gl_rag_app: [ChunkedIndexer] Extract text path=data\documents\copy-tesla-10k-2019.pdf
+2025-10-30 16:56:50,046 [INFO] gl_rag_app: [ChunkedIndexer] Upserting chunks n=1099 parent=copy-tesla-10k-2019
+2025-10-30 16:56:50,046 [INFO] gl_rag_app: [ChromaClientService] Upsert items n=1099
+2025-10-30 16:57:43,703 [INFO] gl_rag_app: [ChromaClientService] Upsert complete n=1099
+2025-10-30 16:57:43,703 [INFO] gl_rag_app: [ChunkedIndexer] Upsert complete parent=copy-tesla-10k-2019
+2025-10-30 16:57:43,704 [INFO] gl_rag_app: [Indexing] Success parent=copy-tesla-10k-2019 chunks=1099 lapse_ms=86088.79
+2025-10-30 16:58:22,716 [INFO] gl_rag_app: [Indexing] Count=5845
+2025-10-30 16:58:28,579 [INFO] gl_rag_app: [RAG] QA begin question='How did automotive gross margin change year over year?' n_results=8 top_k=4
+2025-10-30 17:06:16,595 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 17:06:16,844 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 17:06:16,876 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 17:06:16,879 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 17:06:16,880 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-10-30 17:06:16,880 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-10-30 17:06:16,883 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-10-30 17:06:17,366 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-10-30 17:06:17,373 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-10-30 17:06:24,320 [INFO] gl_rag_app: [RAG] QA begin question='How did automotive gross margin change year over year?' n_results=8 top_k=4
+2025-10-30 17:06:24,320 [INFO] gl_rag_app: [RAGSearchService] QA begin q='How did automotive gross margin change year over year?' n_results=8 top_k=4
+2025-10-30 17:06:24,663 [INFO] gl_rag_app: [RAGSearchService] Retrieved in 342.50 ms
+2025-10-30 17:06:24,663 [INFO] gl_rag_app: [RAGSearchService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 17:06:28,455 [INFO] gl_rag_app: [RAGSearchService] QA ok llm_ms=3791.90
+2025-10-30 17:06:28,455 [INFO] gl_rag_app: [RAG] QA ok citations=['tesla-2023', 'tesla-2019', 'copy-tesla-10k-2019', 'tesla-2022'] llm_ms=3791.90
+2025-10-30 17:06:41,356 [INFO] gl_rag_app: [RAG] QA begin question='Summarize key risk factors mentioned in the filing?' n_results=8 top_k=4
+2025-10-30 17:06:41,356 [INFO] gl_rag_app: [RAGSearchService] QA begin q='Summarize key risk factors mentioned in the filing?' n_results=8 top_k=4
+2025-10-30 17:06:41,394 [INFO] gl_rag_app: [RAGSearchService] Retrieved in 37.73 ms
+2025-10-30 17:06:41,394 [INFO] gl_rag_app: [RAGSearchService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 17:06:44,643 [INFO] gl_rag_app: [RAGSearchService] QA ok llm_ms=3249.05
+2025-10-30 17:06:44,643 [INFO] gl_rag_app: [RAG] QA ok citations=['tesla-2020', 'tesla-2023', 'tesla-2019'] llm_ms=3249.05
+2025-10-30 17:08:28,926 [INFO] gl_rag_app: [Indexing] Begin reindex filename=copy-tesla-10k-2023.pdf
+2025-10-30 17:08:29,788 [INFO] gl_rag_app: [Indexing] Reindex removed parent=tesla-2019 chunks=587
+2025-10-30 17:08:29,789 [INFO] gl_rag_app: [ChunkedIndexer] Extract text path=data\documents\copy-tesla-10k-2023.pdf
+2025-10-30 17:08:43,872 [INFO] gl_rag_app: [ChunkedIndexer] Upserting chunks n=587 parent=tesla-2019
+2025-10-30 17:08:43,872 [INFO] gl_rag_app: [ChromaClientService] Upsert items n=587
+2025-10-30 17:09:04,508 [INFO] gl_rag_app: [ChromaClientService] Upsert complete n=587
+2025-10-30 17:09:04,508 [INFO] gl_rag_app: [ChunkedIndexer] Upsert complete parent=tesla-2019
+2025-10-30 17:09:04,508 [INFO] gl_rag_app: [Indexing] Reindex success parent=tesla-2019 chunks=587 lapse_ms=35582.51
+2025-10-30 17:09:04,513 [INFO] gl_rag_app: [RAG] user_query_eval n=3
+2025-10-30 17:09:04,514 [INFO] gl_rag_app: [RAGSearchService] Batch eval n=3
+2025-10-30 17:09:04,514 [INFO] gl_rag_app: [RAGSearchService] QA begin q='What was Tesla's total revenue in 2019?' n_results=8 top_k=4
+2025-10-30 17:09:04,550 [INFO] gl_rag_app: [RAGSearchService] Retrieved in 37.24 ms
+2025-10-30 17:09:04,551 [INFO] gl_rag_app: [RAGSearchService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 17:09:07,464 [INFO] gl_rag_app: [RAGSearchService] QA ok llm_ms=2913.58
+2025-10-30 17:09:07,464 [INFO] gl_rag_app: [RAGSearchService] QA begin q='Summarize key risk factors mentioned in the filing.' n_results=8 top_k=4
+2025-10-30 17:09:07,496 [INFO] gl_rag_app: [RAGSearchService] Retrieved in 31.91 ms
+2025-10-30 17:09:07,496 [INFO] gl_rag_app: [RAGSearchService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 17:09:15,094 [INFO] gl_rag_app: [RAGSearchService] QA ok llm_ms=7597.16
+2025-10-30 17:09:15,094 [INFO] gl_rag_app: [RAGSearchService] QA begin q='How did automotive gross margin change year over year?' n_results=8 top_k=4
+2025-10-30 17:09:15,129 [INFO] gl_rag_app: [RAGSearchService] Retrieved in 35.27 ms
+2025-10-30 17:09:15,129 [INFO] gl_rag_app: [RAGSearchService] Calling OpenAI model=gpt-4o-mini
+2025-10-30 17:09:18,228 [INFO] gl_rag_app: [RAGSearchService] QA ok llm_ms=3097.68
+2025-10-30 17:10:05,323 [INFO] gl_rag_app: [RAG] user_query_debug q='What capital expenditures are planned for the next year?'
+2025-10-30 17:10:05,323 [INFO] gl_rag_app: [RAGSearchService] QA debug begin q='What capital expenditures are planned for the next year?'
