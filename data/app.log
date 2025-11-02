@@ -901,3 +901,240 @@ AttributeError: 'ChromaClientService' object has no attribute 'upsert_items'
 2025-10-30 17:09:18,228 [INFO] gl_rag_app: [RAGSearchService] QA ok llm_ms=3097.68
 2025-10-30 17:10:05,323 [INFO] gl_rag_app: [RAG] user_query_debug q='What capital expenditures are planned for the next year?'
 2025-10-30 17:10:05,323 [INFO] gl_rag_app: [RAGSearchService] QA debug begin q='What capital expenditures are planned for the next year?'
+2025-11-01 07:49:42,571 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:49:42,906 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:49:42,937 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:49:42,940 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:49:42,941 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 07:49:42,941 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:49:42,943 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:49:43,431 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 07:49:43,453 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:49:43,457 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:58:10,247 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:58:10,474 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:58:10,501 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:58:10,506 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:58:10,506 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 07:58:10,506 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:58:10,509 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:58:10,970 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 07:58:10,983 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:58:10,985 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:58:44,014 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:58:44,238 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:58:44,266 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:58:44,269 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:58:44,269 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 07:58:44,269 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:58:44,272 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:58:44,746 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 07:58:44,756 [INFO] gl_rag_app: [ChromaClientService] Connecting to Chroma path=data/chromadb
+2025-11-01 07:58:44,759 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:58:45,614 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 07:59:29,811 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:59:29,840 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:59:29,840 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 07:59:29,843 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:59:30,298 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 07:59:30,310 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 07:59:31,154 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 08:34:44,764 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:34:44,800 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:34:44,800 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:34:44,804 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:34:45,278 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 08:34:45,294 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:35:33,014 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:35:33,048 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:35:33,048 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:35:33,051 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:35:33,525 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 08:35:33,541 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:36:21,758 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:36:21,790 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:36:21,790 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:36:21,794 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:36:22,314 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 08:36:22,330 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:36:23,237 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 08:37:11,859 [INFO] gl_rag_app: [V2] /react/ask q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-01 08:37:11,860 [INFO] gl_rag_app: [ReActV2] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-01 08:37:17,006 [INFO] gl_rag_app: [ReActV2] step=1 thought_len=1318
+2025-11-01 08:37:17,534 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 08:37:20,290 [INFO] gl_rag_app: [ReActV2] done citations=['tesla-2020']
+2025-11-01 08:38:07,271 [INFO] gl_rag_app: [V2] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:38:07,271 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:41:07,670 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:41:07,702 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:41:07,702 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:41:07,705 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:41:08,184 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 08:41:08,197 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:41:09,072 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 08:41:15,099 [INFO] gl_rag_app: [V2] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:41:15,099 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:41:21,613 [INFO] gl_rag_app: [V2] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:41:21,613 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:44:18,696 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:44:18,731 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:44:18,731 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:44:18,735 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:44:19,283 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 08:44:19,303 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:44:59,047 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:44:59,078 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:44:59,078 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:44:59,081 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:44:59,568 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 08:44:59,583 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:45:45,931 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:45:45,962 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:45:45,963 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:45:45,967 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:45:50,912 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:45:50,943 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:45:50,943 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:45:50,947 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:45:51,421 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 08:45:51,435 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:45:52,406 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 08:46:15,398 [INFO] gl_rag_app: [V2] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:46:15,398 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:46:16,344 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 08:46:16,704 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 08:53:33,000 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:53:33,035 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:53:33,035 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:53:33,038 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:53:33,538 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 08:53:33,553 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:53:46,952 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:53:46,983 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:53:46,983 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:53:46,986 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:53:47,538 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 08:53:47,551 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:54:13,807 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:54:13,839 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:54:13,840 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 08:54:13,843 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:54:14,337 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 08:54:14,351 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 08:54:15,310 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 08:54:20,205 [INFO] gl_rag_app: [V2] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:54:20,205 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:54:21,148 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 08:54:21,506 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 08:54:22,224 [INFO] gl_rag_app: [FunctionsV2] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-01 08:56:32,444 [INFO] gl_rag_app: [V2] /react/ask q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-01 08:56:32,444 [INFO] gl_rag_app: [ReActV2] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-01 08:56:38,051 [INFO] gl_rag_app: [ReActV2] step=1 thought_len=1415
+2025-11-01 08:56:38,134 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 08:56:41,876 [INFO] gl_rag_app: [ReActV2] done citations=['tesla-2020']
+2025-11-01 08:57:08,338 [INFO] gl_rag_app: [V2] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:57:08,338 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 08:57:09,480 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 08:57:09,516 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 08:57:10,645 [INFO] gl_rag_app: [FunctionsV2] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-01 21:20:46,237 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:20:46,290 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:20:46,290 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 21:20:46,295 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:20:46,977 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 21:20:47,007 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:20:48,086 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 21:23:17,574 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:23:17,606 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:23:17,606 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 21:23:17,609 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:23:18,087 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 21:23:18,103 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:23:18,970 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 21:23:45,096 [INFO] gl_rag_app: [ReActV2] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-01 21:23:50,548 [INFO] gl_rag_app: [ReActV2] step=1 thought_len=1433
+2025-11-01 21:23:51,136 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:23:54,348 [INFO] gl_rag_app: [ReActV2] done citations=['tesla-2020']
+2025-11-01 21:25:45,657 [INFO] gl_rag_app: [ReActV2] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-01 21:25:51,743 [INFO] gl_rag_app: [ReActV2] step=1 thought_len=1374
+2025-11-01 21:25:51,778 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:25:54,542 [INFO] gl_rag_app: [ReActV2] done citations=['tesla-2020']
+2025-11-01 21:28:17,705 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:28:17,739 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:28:17,739 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 21:28:17,743 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:28:18,224 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 21:28:18,239 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:28:19,140 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 21:28:20,741 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:28:21,860 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 21:28:22,213 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:28:23,038 [INFO] gl_rag_app: [FunctionsV2] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-01 21:28:25,949 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:28:25,982 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:28:25,982 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 21:28:25,985 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:28:26,510 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 21:28:26,527 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:28:27,514 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 21:28:27,544 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:28:28,704 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 21:28:29,097 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:28:29,945 [INFO] gl_rag_app: [FunctionsV2] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-01 21:28:55,330 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:28:56,277 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 21:28:56,309 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:28:57,128 [INFO] gl_rag_app: [FunctionsV2] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-01 21:29:22,254 [INFO] gl_rag_app: [ReActV2] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-01 21:29:26,649 [INFO] gl_rag_app: [ReActV2] step=1 thought_len=1368
+2025-11-01 21:29:26,688 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:29:29,050 [INFO] gl_rag_app: [ReActV2] done citations=['tesla-2020']
+2025-11-01 21:29:41,484 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:29:42,407 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 21:29:42,439 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:29:43,377 [INFO] gl_rag_app: [FunctionsV2] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-01 21:38:26,315 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:38:26,345 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:38:26,346 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 21:38:26,348 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:38:26,812 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 21:38:26,828 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:39:14,585 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:39:14,618 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:39:14,618 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-01 21:39:14,621 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:39:15,089 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-01 21:39:15,104 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-01 21:39:16,016 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-01 21:39:24,591 [INFO] gl_rag_app: [V2] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:39:24,591 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:39:25,536 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 21:39:25,904 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:39:26,739 [INFO] gl_rag_app: [FunctionsV2] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-01 21:39:43,468 [INFO] gl_rag_app: [V2] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:39:43,468 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:39:44,433 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 21:39:44,466 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:39:45,154 [INFO] gl_rag_app: [FunctionsV2] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-01 21:39:51,443 [INFO] gl_rag_app: [V2] /react/ask q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-01 21:39:51,443 [INFO] gl_rag_app: [ReActV2] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-01 21:39:56,433 [INFO] gl_rag_app: [ReActV2] step=1 thought_len=1339
+2025-11-01 21:39:56,464 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:40:01,130 [INFO] gl_rag_app: [ReActV2] done citations=['tesla-2020']
+2025-11-01 21:40:20,241 [INFO] gl_rag_app: [V2] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:40:20,241 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:40:21,188 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 21:40:21,222 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:40:21,940 [INFO] gl_rag_app: [FunctionsV2] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-01 21:40:24,004 [INFO] gl_rag_app: [V2] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:40:24,004 [INFO] gl_rag_app: [FunctionsV2] begin q='What was Tesla's total revenue in 2019?'
+2025-11-01 21:40:24,705 [INFO] gl_rag_app: [FunctionsV2] tool_call name=vector_search args={'query': 'Tesla total revenue 2019'}
+2025-11-01 21:40:24,735 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-01 21:40:25,556 [INFO] gl_rag_app: [FunctionsV2] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-02 07:49:35,485 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-02 07:49:35,520 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-02 07:49:35,520 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-02 07:49:35,523 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-02 07:49:36,124 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-02 07:49:36,156 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-02 07:49:37,457 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb

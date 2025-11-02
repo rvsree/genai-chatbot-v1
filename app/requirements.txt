@@ -3,6 +3,7 @@ python-dotenv==1.0.1
 pypdf==6.1.1
 tiktoken==0.9.0
 numpy==1.26.4
+structlog==25.5.0
 
 # requirements.txt (Phase A baseline)
 fastapi==0.115.5

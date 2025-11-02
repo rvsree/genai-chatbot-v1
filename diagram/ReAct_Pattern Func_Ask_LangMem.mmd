@@ -1,0 +1,36 @@
+sequenceDiagram
+    autonumber
+%% diagram_name: react-ask-seq | functional_scope: ReAct + memory-first + retriever fallback
+    actor U as Client
+    participant API as /react/ask
+    participant AG as ReAct Agent
+    participant LM as LangMem (search/save)
+    participant VR as Chroma Retriever
+    participant CP as MemorySaver
+
+    U->>API: POST /react/ask {query, thread_id}
+    API->>CP: Load thread history
+    API->>AG: Invoke(query, thread_id)
+    AG->>LM: search_memory(query)
+    alt Memory hit
+        LM-->>AG: Context
+        AG->>AG: Synthesize
+        AG-->>API: Answer
+        AG->>LM: manage_memory(summary)
+    else No useful memory
+        AG->>VR: retrieve_10k(query) [timeout]
+        alt Retriever ok
+            VR-->>AG: Excerpts
+            AG->>AG: Synthesize grounded
+            AG-->>API: Answer
+            AG->>LM: manage_memory(summary)
+        else Retriever fails/empty
+            AG->>LM: search_memory(query) recheck
+            alt Fallback context
+                LM-->>AG: Context
+                AG-->>API: Degraded answer
+            else No fallback
+                AG-->>API: Graceful error + next steps
+            end
+        end
+    end

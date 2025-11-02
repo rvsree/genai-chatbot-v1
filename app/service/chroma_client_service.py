@@ -15,7 +15,7 @@ class ChromaClientService:
     """
 
     def __init__(self, collection_name: str = "documents_collection"):
-        logger.info("[ChromaClientService] Connecting to Chroma path=%s", cfg.chroma_dir)
+        #logger.info("[ChromaClientService] Connecting to Chroma path=%s", cfg.chroma_dir)
         self.client = chromadb.PersistentClient(path=cfg.chroma_dir)
         self.ef = embedding_functions.DefaultEmbeddingFunction()
         self.collection = self.client.get_or_create_collection(

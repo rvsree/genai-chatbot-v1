@@ -1,0 +1,24 @@
+sequenceDiagram
+    autonumber
+%% diagram_name: functions-ask-seq | functional_scope: Direct function-calling over tools
+    actor U as Client
+    participant API as /functions/ask
+    participant FC as Func Orchestrator
+    participant LM as LangMem (search/save)
+    participant VR as Chroma Retriever
+
+    U->>API: POST /functions/ask {fn, args, thread_id}
+    API->>FC: Dispatch(fn, args, thread_id)
+    alt fn == "search_memory"
+        FC->>LM: search_memory(args.query)
+        LM-->>FC: Results
+        FC-->>API: Memory hits
+    else fn == "manage_memory"
+        FC->>LM: manage_memory(args.summary)
+        LM-->>FC: OK
+        FC-->>API: Saved
+    else fn == "retrieve_10k"
+        FC->>VR: retrieve_10k(args.query) [timeout]
+        VR-->>FC: Excerpts|Empty|Error
+        FC-->>API: Payload with status
+    end

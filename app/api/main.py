@@ -6,6 +6,8 @@ from app.utils.app_logging import get_logger
 from app.router.clients_router import router as clients_router
 from app.router.doc_indexing_router import indexing_router
 from app.router.rag_search_router import rag_router
+from app.router.feature.react_agent.react_router import react_router
+from app.router.feature.react_agent.react_mermaid import react_mermaid_router
 
 app = FastAPI(title="GL RAG FastAPI", version="0.1.1")
 cfg = AppConfig()
@@ -23,3 +25,5 @@ async def health():
 app.include_router(clients_router, prefix="/clients")
 app.include_router(indexing_router)   # exposes /doc-indexing/*
 app.include_router(rag_router)        # exposes /rag-search/*
+app.include_router(react_router)
+app.include_router(react_mermaid_router)
