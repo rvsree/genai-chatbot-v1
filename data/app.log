@@ -1138,3 +1138,682 @@ AttributeError: 'ChromaClientService' object has no attribute 'upsert_items'
 2025-11-02 07:49:36,124 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
 2025-11-02 07:49:36,156 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
 2025-11-02 07:49:37,457 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data/chromadb
+2025-11-03 17:35:56,327 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:35:56,379 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:35:56,380 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 17:35:56,383 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:37:49,062 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:37:49,104 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:37:49,104 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 17:37:49,108 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:39:28,555 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:39:28,586 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:39:28,586 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 17:39:28,590 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:41:26,759 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:41:26,791 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:41:26,791 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 17:41:26,794 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 17:41:27,268 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 17:41:27,281 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:00:28,744 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:00:28,777 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:00:28,777 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 18:00:28,780 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:00:29,249 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 18:00:29,263 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:00:30,168 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:01:05,248 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:01:05,285 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:01:05,285 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 18:01:05,288 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:01:05,793 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 18:01:05,808 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:01:06,739 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:01:30,823 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:01:30,858 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:01:30,858 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 18:01:30,862 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:01:31,348 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 18:01:31,361 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:01:32,268 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:25:52,277 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:25:52,323 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:25:52,324 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 18:25:52,327 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:25:52,901 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 18:25:52,921 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:25:53,888 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:25:54,792 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 18:26:22,761 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:26:22,814 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:26:22,815 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 18:26:22,821 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:26:23,360 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 18:26:23,379 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:26:24,388 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:26:25,365 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 18:29:25,358 [INFO] gl_rag_app: [RSA] /react/ask q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-03 18:29:25,358 [INFO] gl_rag_app: [ReAct] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-03 18:29:25,622 [ERROR] gl_rag_app: [RSA] react_ask failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************HQsA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\app\router\feature\react_single_agent\react_functions_router.py", line 43, in react_ask
+    out = react_agent.run(req.question)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\app\service\feature\react_single_agent\react_service.py", line 31, in run
+    resp = client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************HQsA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-11-03 18:31:05,533 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:31:05,565 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:31:05,565 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 18:31:05,568 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:31:06,098 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 18:31:06,115 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:31:07,090 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:31:07,978 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 18:31:18,120 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:31:18,152 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:31:18,152 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 18:31:18,155 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:31:18,622 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 18:31:18,637 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:31:19,551 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:31:20,435 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 18:31:28,385 [INFO] gl_rag_app: [RSA] /react/ask q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-03 18:31:28,385 [INFO] gl_rag_app: [ReAct] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-03 18:31:28,620 [ERROR] gl_rag_app: [RSA] react_ask failed: Error code: 401 - {'reason': 'Authentication failed: token invalid'}
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\app\router\feature\react_single_agent\react_functions_router.py", line 43, in react_ask
+    out = react_agent.run(req.question)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\app\service\feature\react_single_agent\react_service.py", line 31, in run
+    resp = client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'reason': 'Authentication failed: token invalid'}
+2025-11-03 18:49:28,561 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:49:28,598 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:49:28,598 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 18:49:28,602 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:49:29,091 [INFO] gl_rag_app: [RAGSearchService] Ready model=
+2025-11-03 18:49:29,106 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:49:29,989 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:49:30,899 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 18:49:35,749 [INFO] gl_rag_app: [RSA] /react/ask q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-03 18:49:35,749 [INFO] gl_rag_app: [ReAct] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-03 18:49:37,060 [ERROR] gl_rag_app: [RSA] react_ask failed: Connection error.
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 207, in handle_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 955, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sreed\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 207, in handle_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 955, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sreed\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 207, in handle_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 955, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sreed\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\app\router\feature\react_single_agent\react_functions_router.py", line 43, in react_ask
+    out = react_agent.run(req.question)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\app\service\feature\react_single_agent\react_service.py", line 31, in run
+    resp = client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 979, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1057, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 979, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1057, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 989, in _request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2025-11-03 18:55:08,888 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:55:08,923 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:55:08,924 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 18:55:08,927 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:55:09,412 [INFO] gl_rag_app: [RAGSearchService] Ready model=
+2025-11-03 18:55:09,425 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:55:10,364 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:55:11,282 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 18:55:21,671 [INFO] gl_rag_app: [RSA] /react/ask q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-03 18:55:21,671 [INFO] gl_rag_app: [ReAct] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-03 18:55:22,930 [ERROR] gl_rag_app: [RSA] react_ask failed: Connection error.
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 207, in handle_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 955, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sreed\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 207, in handle_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 955, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sreed\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 207, in handle_request
+    raise UnsupportedProtocol(
+httpcore.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 955, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sreed\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.UnsupportedProtocol: Request URL is missing an 'http://' or 'https://' protocol.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\app\router\feature\react_single_agent\react_functions_router.py", line 43, in react_ask
+    out = react_agent.run(req.question)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\app\service\feature\react_single_agent\react_service.py", line 31, in run
+    resp = client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 979, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1057, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 979, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1057, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 989, in _request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2025-11-03 18:59:14,450 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:59:14,483 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:59:14,483 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 18:59:14,486 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:59:14,973 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 18:59:14,988 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:59:15,902 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 18:59:16,776 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 18:59:25,823 [INFO] gl_rag_app: [RSA] /react/ask q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-03 18:59:25,823 [INFO] gl_rag_app: [ReAct] begin q='Summarize key risk factors mentioned in the latest filing.'
+2025-11-03 18:59:27,185 [INFO] gl_rag_app: [ReAct] step=1 thought_len=207
+2025-11-03 18:59:27,185 [INFO] gl_rag_app: [Tools] vector_search begin query='Summarize key risk factors mentioned in the latest filing.' where=None n=5
+2025-11-03 18:59:27,522 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 18:59:28,950 [INFO] gl_rag_app: [ReAct] done citations=['tesla-2020']
+2025-11-03 19:03:58,564 [INFO] gl_rag_app: [RSA] /react/ask q='List three risk factors from Tesla’s 2023 10‑K and cite the parent id.'
+2025-11-03 19:03:58,565 [INFO] gl_rag_app: [ReAct] begin q='List three risk factors from Tesla’s 2023 10‑K and cite the parent id.'
+2025-11-03 19:04:00,598 [INFO] gl_rag_app: [ReAct] step=1 thought_len=204
+2025-11-03 19:04:00,598 [INFO] gl_rag_app: [Tools] vector_search begin query='List three risk factors from Tesla’s 2023 10‑K and cite the parent id.' where=None n=5
+2025-11-03 19:04:00,632 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:04:02,152 [INFO] gl_rag_app: [ReAct] done citations=['tesla-2022', 'copy-tesla-10k-2019']
+2025-11-03 19:04:29,138 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:04:29,138 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:04:30,893 [INFO] gl_rag_app: [ReAct] step=1 thought_len=207
+2025-11-03 19:04:30,893 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:04:30,928 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:04:31,900 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:08:46,592 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:08:46,627 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:08:46,627 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:08:46,630 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:08:47,096 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:08:47,109 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:08:47,994 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:08:48,903 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 19:09:05,859 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:09:05,859 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:09:07,422 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:09:07,731 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:09:08,521 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:09:17,612 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:09:17,612 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:09:19,093 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:09:19,135 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:09:20,087 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:10:15,648 [INFO] gl_rag_app: [RSA] /react/ask q='List two specific risk factors explicitly stated in Tesla’s 2019 10-K; include the parent id in citations.'
+2025-11-03 19:10:15,648 [INFO] gl_rag_app: [ReAct] begin q='List two specific risk factors explicitly stated in Tesla’s 2019 10-K; include the parent id in citations.'
+2025-11-03 19:10:17,135 [INFO] gl_rag_app: [Tools] vector_search begin query='List two specific risk factors explicitly stated in Tesla’s 2019 10-K; include the parent id in citations.' where=None n=5
+2025-11-03 19:10:17,168 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:10:18,397 [INFO] gl_rag_app: [ReAct] done citations=['tesla-2022', 'copy-tesla-10k-2019', 'tesla-2023']
+2025-11-03 19:13:43,984 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:13:44,018 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:13:44,018 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:13:44,022 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:13:44,511 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:13:44,526 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:13:45,437 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:13:46,335 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 19:13:57,781 [INFO] gl_rag_app: [RSA] /react/ask q='List two specific risk factors explicitly stated in Tesla’s 2019 10-K; include the parent id in citations.'
+2025-11-03 19:13:57,782 [INFO] gl_rag_app: [ReAct] begin q='List two specific risk factors explicitly stated in Tesla’s 2019 10-K; include the parent id in citations.'
+2025-11-03 19:13:59,193 [INFO] gl_rag_app: [Tools] vector_search begin query='List two specific risk factors explicitly stated in Tesla’s 2019 10-K; include the parent id in citations.' where=None n=5
+2025-11-03 19:13:59,570 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:14:03,423 [INFO] gl_rag_app: [ReAct] done citations=['tesla-2022', 'copy-tesla-10k-2019', 'tesla-2023']
+2025-11-03 19:14:39,112 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:14:39,112 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:14:40,178 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:14:40,212 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:14:42,182 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:21:25,007 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:21:25,040 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:21:25,040 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:21:25,043 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:21:25,509 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:21:25,524 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:21:26,459 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:21:27,339 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 19:21:30,639 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:21:30,640 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:21:32,258 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:21:32,563 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:21:34,975 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:21:43,942 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:21:43,943 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:21:46,251 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:21:46,281 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:21:47,818 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:22:08,065 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:22:08,065 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:22:09,327 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:22:09,359 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:22:10,883 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:22:16,061 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:22:16,061 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:22:18,981 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:22:19,015 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:22:20,330 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:29:56,386 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:29:56,419 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:29:56,419 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:29:56,422 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:29:56,900 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:29:56,915 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:30:17,419 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:30:17,460 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:30:17,460 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:30:17,465 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:30:18,034 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:30:18,051 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:30:19,277 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:15,306 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:15,361 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:15,361 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:31:15,367 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:16,008 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:31:16,026 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:17,271 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:18,446 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 19:31:27,880 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:27,922 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:27,922 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:31:27,926 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:28,477 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:31:28,495 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:29,421 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:31:30,346 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 19:31:36,776 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:31:36,777 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:31:38,182 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:31:38,742 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:31:40,980 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:34:30,222 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:34:30,257 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:34:30,257 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:34:30,260 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:34:30,743 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:34:30,757 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:34:31,638 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:34:32,522 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 19:34:42,962 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:34:42,962 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:34:44,052 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:34:44,389 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:34:47,093 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:35:47,362 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:35:47,362 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:35:48,388 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:35:48,444 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:35:50,844 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:36:01,430 [INFO] gl_rag_app: [RSA] /react/ask q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:36:01,430 [INFO] gl_rag_app: [ReAct] begin q='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.'
+2025-11-03 19:36:02,249 [INFO] gl_rag_app: [Tools] vector_search begin query='According to the 2019 filing, what were Tesla’s top two risk factors? Return citations.' where=None n=5
+2025-11-03 19:36:02,284 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:36:04,967 [INFO] gl_rag_app: [ReAct] done citations=['copy-tesla-10k-2019', 'tesla-2022']
+2025-11-03 19:36:35,973 [INFO] gl_rag_app: [RSA] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-03 19:36:35,973 [INFO] gl_rag_app: [Functions] begin q='What was Tesla's total revenue in 2019?'
+2025-11-03 19:36:38,442 [ERROR] gl_rag_app: [Functions] failed: Error code: 400 - {'error': {'message': "Invalid 'messages[2].tool_calls': empty array. Expected an array with minimum length 1, but got an empty array instead.", 'type': 'invalid_request_error', 'param': 'messages[2].tool_calls', 'code': 'empty_array'}}
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\app\service\feature\react_single_agent\functions_service.py", line 105, in run
+    final = client.chat.completions.create(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid 'messages[2].tool_calls': empty array. Expected an array with minimum length 1, but got an empty array instead.", 'type': 'invalid_request_error', 'param': 'messages[2].tool_calls', 'code': 'empty_array'}}
+2025-11-03 19:37:11,669 [INFO] gl_rag_app: [RSA] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-03 19:37:11,670 [INFO] gl_rag_app: [Functions] begin q='What was Tesla's total revenue in 2019?'
+2025-11-03 19:37:13,392 [ERROR] gl_rag_app: [Functions] failed: Error code: 400 - {'error': {'message': "Invalid 'messages[2].tool_calls': empty array. Expected an array with minimum length 1, but got an empty array instead.", 'type': 'invalid_request_error', 'param': 'messages[2].tool_calls', 'code': 'empty_array'}}
+Traceback (most recent call last):
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\app\service\feature\react_single_agent\functions_service.py", line 105, in run
+    final = client.chat.completions.create(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_utils\_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 914, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 919, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\workspace\2025\agentic_workflow_v2\genai-chatbot\.venv\Lib\site-packages\openai\_base_client.py", line 1023, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid 'messages[2].tool_calls': empty array. Expected an array with minimum length 1, but got an empty array instead.", 'type': 'invalid_request_error', 'param': 'messages[2].tool_calls', 'code': 'empty_array'}}
+2025-11-03 19:38:15,491 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:38:15,524 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:38:15,524 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:38:15,528 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:38:15,994 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:38:16,007 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:38:16,882 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:38:17,752 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 19:38:21,243 [INFO] gl_rag_app: [RSA] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-03 19:38:21,243 [INFO] gl_rag_app: [Functions] begin q='What was Tesla's total revenue in 2019?'
+2025-11-03 19:38:22,891 [INFO] gl_rag_app: [Tools] vector_search begin query='What was Tesla's total revenue in 2019?' where=None n=5
+2025-11-03 19:38:23,219 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:38:24,309 [INFO] gl_rag_app: [Functions] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-03 19:42:03,589 [INFO] gl_rag_app: [RSA] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-03 19:42:03,589 [INFO] gl_rag_app: [Functions] begin q='What was Tesla's total revenue in 2019?'
+2025-11-03 19:42:05,462 [INFO] gl_rag_app: [Tools] vector_search begin query='What was Tesla's total revenue in 2019?' where=None n=5
+2025-11-03 19:42:05,497 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:42:06,477 [INFO] gl_rag_app: [Functions] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']
+2025-11-03 19:46:37,203 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:46:37,237 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:46:37,237 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:46:37,240 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:46:37,726 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:46:37,741 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:46:38,678 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:46:56,836 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:46:56,873 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:46:56,873 [INFO] gl_rag_app: [RAGSearchService] Initialize
+2025-11-03 19:46:56,878 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:46:57,382 [INFO] gl_rag_app: [RAGSearchService] Ready model=gpt-4o-mini
+2025-11-03 19:46:57,397 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:46:58,345 [INFO] gl_rag_app: [ChromaClientService] Ready collection=documents_collection
+2025-11-03 19:46:59,277 [INFO] gl_rag_app: App starting with data_dir=data, chroma_dir=data\chromadb
+2025-11-03 19:47:01,911 [INFO] gl_rag_app: [RSA] /functions/ask q='What was Tesla's total revenue in 2019?'
+2025-11-03 19:47:01,911 [INFO] gl_rag_app: [Functions] begin q='What was Tesla's total revenue in 2019?'
+2025-11-03 19:47:03,760 [INFO] gl_rag_app: [Tools] vector_search begin query='What was Tesla's total revenue in 2019?' where=None n=5
+2025-11-03 19:47:04,056 [INFO] gl_rag_app: [Tools] vector_search hits=5
+2025-11-03 19:47:05,316 [INFO] gl_rag_app: [Functions] done citations=['tesla-2021', 'tesla-2022', 'copy-tesla-10k-2019']

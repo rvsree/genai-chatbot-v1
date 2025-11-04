@@ -8,6 +8,8 @@ from app.router.doc_indexing_router import indexing_router
 from app.router.rag_search_router import rag_router
 from app.router.feature.react_agent.react_router import react_router
 from app.router.feature.react_agent.react_mermaid import react_mermaid_router
+from app.router.feature.react_single_agent.react_functions_router import router as react_single_agent_router
+from app.router.feature.react_single_agent.mermaid_router import router as mermaid_react_single_agent_router
 
 app = FastAPI(title="GL RAG FastAPI", version="0.1.1")
 cfg = AppConfig()
@@ -27,3 +29,6 @@ app.include_router(indexing_router)   # exposes /doc-indexing/*
 app.include_router(rag_router)        # exposes /rag-search/*
 app.include_router(react_router)
 app.include_router(react_mermaid_router)
+
+app.include_router(react_single_agent_router)
+app.include_router(mermaid_react_single_agent_router)
