@@ -2,10 +2,10 @@ from typing import List, Dict, Any, Optional
 from uuid import uuid4
 import chromadb
 from chromadb.utils import embedding_functions
-from app.config.app_config import AppConfig
+from app.config.app_config import AppConfig, AppConfigSingleton
 from app.utils.app_logging import get_logger
 
-cfg = AppConfig()
+cfg = AppConfigSingleton.instance()
 logger = get_logger(cfg)
 ef = embedding_functions.DefaultEmbeddingFunction()
 

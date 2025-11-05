@@ -1,9 +1,9 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 from app.utils.app_logging import get_logger
-from app.config.app_config import AppConfig
+from app.config.app_config import AppConfig, AppConfigSingleton
 
-cfg = AppConfig()
+cfg = AppConfigSingleton.instance()
 logger = get_logger(cfg)
 react_mermaid_router = APIRouter(prefix="/react_mermaid", tags=["react_mermaid_diagrams"])
 

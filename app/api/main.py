@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.config.app_config import AppConfig, ensure_data_dirs
+from app.config.app_config import AppConfig, AppConfigSingleton
 from app.utils.app_logging import get_logger
 
 # Routers
@@ -8,15 +8,15 @@ from app.router.doc_indexing_router import indexing_router
 from app.router.rag_search_router import rag_router
 from app.router.feature.react_agent.react_router import react_router
 from app.router.feature.react_agent.react_mermaid import react_mermaid_router
-from app.router.feature.react_single_agent.react_functions_router import router as react_single_agent_router
+#from app.router.feature.react_single_agent.react_functions_router import router as react_single_agent_router
 from app.router.feature.react_single_agent.mermaid_router import router as mermaid_react_single_agent_router
+from app.router.feature.react_single_agent.react_tool_router import router as tool_router
+from app.router.feature.react_single_agent.react_functions_router import router as functions_router
+
 
 app = FastAPI(title="GL RAG FastAPI", version="0.1.1")
-cfg = AppConfig()
+cfg = AppConfigSingleton.instance()
 logger = get_logger(cfg)
-
-ensure_data_dirs(cfg)
-logger.info("App starting with data_dir=%s, chroma_dir=%s", cfg.data_dir, cfg.chroma_dir)
 
 @app.get("/doc-indexing/health")
 async def health():
@@ -30,5 +30,8 @@ app.include_router(rag_router)        # exposes /rag-search/*
 app.include_router(react_router)
 app.include_router(react_mermaid_router)
 
-app.include_router(react_single_agent_router)
+#app.include_router(react_single_agent_router)
 app.include_router(mermaid_react_single_agent_router)
+
+app.include_router(tool_router)
+app.include_router(functions_router)

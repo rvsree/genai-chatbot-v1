@@ -1,9 +1,9 @@
 from typing import Dict, Any, Optional, List
 from app.utils.app_logging import get_logger
-from app.config.app_config import AppConfig
-from app.service.chroma_client_service import ChromaClientService
+from app.config.app_config import AppConfigSingleton
+from app.config.chroma_client_service import ChromaClientService
 
-cfg = AppConfig()
+cfg = AppConfigSingleton.instance()
 logger = get_logger(cfg)
 dbclient = ChromaClientService()
 

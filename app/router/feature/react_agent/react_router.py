@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 from app.utils.app_logging import get_logger
-from app.config.app_config import AppConfig
+from app.config.app_config import AppConfig, AppConfigSingleton
 from app.service.feature.react_agent.react_service import ReactAgent
 from app.service.feature.react_agent.functions_service import FunctionCalling
 from typing import Optional
@@ -9,7 +9,7 @@ from fastapi import APIRouter, Query
 from pydantic import BaseModel
 from app.router.feature.react_agent.react_mermaid import _react_agent_mermaid, _functions_calling_mermaid
 
-cfg = AppConfig()
+cfg = AppConfigSingleton.instance()
 logger = get_logger(cfg)
 react_router = APIRouter(prefix="/rag/react-agent", tags=["/rag/react-agent"])
 

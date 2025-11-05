@@ -3,12 +3,13 @@ from typing import Optional, Dict, Any, List
 import time
 from pydantic import BaseModel
 from app.utils.app_logging import get_logger
-from app.config.app_config import AppConfig
-from app.service.chroma_client_service import ChromaClientService
-from app.service.rag_search_service import RAGSearchService
+from app.config.app_config import AppConfigSingleton
+from app.config.chroma_client_service import ChromaClientService
 from app.models.rag_models import RetrieveResponse, RetrieveResponseHit, QARequest, QAResponse
+from app.models.rag_models import RAGQueryRequest, RAGAnswer
+from app.service.rag.rag_search_service import RAGSearchService
 
-cfg = AppConfig()
+cfg = AppConfigSingleton.instance()
 logger = get_logger(cfg)
 rag_router = APIRouter(prefix="/rag-search", tags=["rag-search"])
 chromaClientService = ChromaClientService()
@@ -18,6 +19,22 @@ class BatchQARequest(BaseModel):
     questions: List[str]
     n_results: int = 8
     top_k_ctx: int = 4
+
+class UserQueryRequest(BaseModel):
+    question: str
+enable_query_variants: bool = False
+enable_output_scoring: bool = False
+emit_debug: bool = False
+max_variants: int = 3
+
+@rag_router.post("/user_query", response_model=RAGAnswer)
+async def user_query(req: UserQueryRequest):
+    rag_req = RAGQueryRequest(**req.dict())
+    return ragService.answer(rag_req)
+
+@rag_router.get("/search")
+async def rag_search(q: str = Query(...), n: int = Query(5)):
+    return ragService.retrieve(q, n)
 
 @rag_router.get("/retrieve", response_model=RetrieveResponse)
 async def retrieve(query: str = Query(...), n_results: int = Query(8, ge=1, le=25),

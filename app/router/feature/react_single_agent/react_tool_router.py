@@ -1,13 +1,14 @@
+# app/router/feature/react_single_agent/react_tool_router.py
 from fastapi import APIRouter
 from fastapi.responses import JSONResponse
-from app.service.feature.react_single_agent.functions_service import ReactFunctionCallingAgent
+from app.service.feature.react_single_agent.react_service import ReactToolCallingAgent
 from app.service.feature.react_single_agent.base.react_base import AgentError
 
 router = APIRouter()
-agent = ReactFunctionCallingAgent()
+agent = ReactToolCallingAgent()
 
-@router.post("/rag/react-single-agent/function-calling/ask")
-async def react_function_calling(payload: dict):
+@router.post("/rag/react-single-agent/tool-calling/ask")
+async def react_tool_calling(payload: dict):
     try:
         return await agent.run(
             question=payload["question"],
@@ -17,10 +18,10 @@ async def react_function_calling(payload: dict):
             enable_output_scoring=payload.get("enable_output_scoring", True),
             max_variants=payload.get("max_variants", 3),
             self_reflection_iterations=payload.get("self_reflection_iterations", 3),
-            agent_graph_id=payload.get("agent_graph_id","react-single-agent-functions"),
+            agent_graph_id=payload.get("agent_graph_id","react-single-agent"),
             agent_descriptor={
-                "agent_id":"react-single-agent-functions",
-                "agent_name":"Financial Filings Analyst (FC)",
+                "agent_id":"react-single-agent",
+                "agent_name":"Financial Filings Analyst",
                 "agent_role":"researcher",
                 "agent_goal":"Retrieve and verify filing facts."
             },

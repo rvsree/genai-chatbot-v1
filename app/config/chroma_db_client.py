@@ -1,44 +1,41 @@
+# app/service/chroma_db_client.py
+# Fix: never pass {} to collection.query/query_embeddings; pass None instead.
+
 from typing import List, Dict, Any, Optional
 from uuid import uuid4
 import chromadb
 from chromadb.utils import embedding_functions
-from app.config.app_config import AppConfig
+from app.config.app_config import AppConfigSingleton
 from app.utils.app_logging import get_logger
 
-cfg = AppConfig()
-logger = get_logger(cfg)
+_cfg = AppConfigSingleton.instance()
+_logger = get_logger(_cfg)
 
-class ChromaClientService:
-    """
-    Single-source Chroma access used across the app.
-    Provides upsert_items(), get_ids_by_parent(), delete_by_parent(), query(), etc.
-    """
-
+class ChromaDBClient:
     def __init__(self, collection_name: str = "documents_collection"):
-        #logger.info("[ChromaClientService] Connecting to Chroma path=%s", cfg.chroma_dir)
-        self.client = chromadb.PersistentClient(path=cfg.chroma_dir)
+        self.client = chromadb.PersistentClient(path=_cfg.chroma_dir)
         self.ef = embedding_functions.DefaultEmbeddingFunction()
         self.collection = self.client.get_or_create_collection(
             name=collection_name,
             embedding_function=self.ef,
             metadata={"hnsw:space": "cosine"}
         )
-        logger.info("[ChromaClientService] Ready collection=%s", collection_name)
+        _logger.info("[ChromaDBClient] Ready collection=%s path=%s", collection_name, _cfg.chroma_dir)
 
-    # ---------- Basic utilities ----------
+    def health(self) -> Dict[str, Any]:
+        return {"status": "ok", "chroma_dir": _cfg.chroma_dir}
+
     def count(self) -> int:
         return int(self.collection.count())
 
     def next_id(self) -> str:
         return str(uuid4())
 
-    # ---------- Upsert/bulk ----------
     def upsert_items(self, texts: List[str], metadatas: List[Dict[str, Any]], ids: List[str]) -> None:
-        logger.info("[ChromaClientService] Upsert items n=%d", len(ids))
+        _logger.info("[ChromaDBClient] Upsert items n=%d", len(ids))
         self.collection.upsert(documents=texts, metadatas=metadatas, ids=ids)
-        logger.info("[ChromaClientService] Upsert complete n=%d", len(ids))
+        _logger.info("[ChromaDBClient] Upsert complete n=%d", len(ids))
 
-    # ---------- Parent helpers (idempotency and cleanup) ----------
     def get_ids_by_parent(self, parent_id: str) -> List[str]:
         res = self.collection.get(where={"parent_id": {"$eq": parent_id}})
         ids = res.get("ids", [])
@@ -53,7 +50,6 @@ class ChromaClientService:
         self.collection.delete(ids=ids)
         return len(ids)
 
-    # ---------- Single-id ops ----------
     def delete(self, doc_id: str) -> int:
         self.collection.delete(ids=[doc_id])
         return 1
@@ -71,10 +67,12 @@ class ChromaClientService:
         self.collection.upsert(documents=[text], metadatas=[meta], ids=[doc_id])
         return meta
 
-    # ---------- Query ----------
     def _normalize_where(self, filt: Optional[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
         if not filt:
             return None
+        # if already normalized with operators, trust caller
+        if any(isinstance(v, dict) and any(k.startswith("$") for k in v.keys()) for v in filt.values()):
+            return filt
         items = [{k: {"$eq": v}} for k, v in filt.items()]
         return items[0] if len(items) == 1 else {"$and": items}
 
@@ -83,3 +81,7 @@ class ChromaClientService:
             raise ValueError("query_text is required")
         norm_where = self._normalize_where(where)
         return self.collection.query(query_texts=[query_text], n_results=n_results, where=norm_where)
+
+    def query_by_vector(self, query_vector: List[float], n_results: int = 8, where: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        norm_where = self._normalize_where(where)
+        return self.collection.query(query_embeddings=[query_vector], n_results=n_results, where=norm_where)

@@ -2,19 +2,26 @@ from fastapi import APIRouter, UploadFile, File, Form, HTTPException, Request
 from fastapi import Path as FPath
 from pathlib import Path
 import time
-from typing import Optional
-from app.config.app_config import AppConfig
+from typing import Optional, Dict, Any, List
+
+from app.config.app_config import AppConfigSingleton
 from app.utils.app_logging import get_logger
-from app.service.chroma_client_service import ChromaClientService
-from app.service.chunked_indexer_service import ChunkedIndexerService
+from app.config.vector_db_client import VectorDBClient  # corrected import path
+from app.service.indexing.chunked_indexer_service import ChunkedIndexerService
 from app.models.indexing_models import (
     IndexResponse, SaveMetadataRequest, SaveMetadataResponse, DeleteResponse
 )
 
-cfg = AppConfig()
+cfg = AppConfigSingleton.instance()
 logger = get_logger(cfg)
-chromaClientService = ChromaClientService()
-indexer = ChunkedIndexerService(chromaClientService)
+
+# Ensure documents directory exists
+Path(cfg.documents_dir).mkdir(parents=True, exist_ok=True)
+
+# Initialize vector DB client and indexer
+vdb = VectorDBClient(backend="chroma")
+indexer = ChunkedIndexerService(vdb)
+
 indexing_router = APIRouter(prefix="/doc-indexing", tags=["doc-indexing"])
 
 def _safe_filename(name: str) -> str:
@@ -27,15 +34,64 @@ def _validate_single_file_part(request: Request) -> Optional[str]:
         return "Expected multipart/form-data; Content-Type incorrect or missing boundary"
     return None
 
+# --------- Helper wrappers over VectorDBClient to mirror older chromaClientService API ---------
+
+def _collection_count() -> int:
+    try:
+        return vdb.count()
+    except Exception as e:
+        logger.error("[Indexing] count() failed: %s", e)
+        return 0
+
+def _get_ids_by_parent(parent_id: str) -> List[str]:
+    try:
+        res = vdb.get(where={"parent_id": parent_id})
+        ids = res.get("ids", [[]])
+        return ids[0] if ids and isinstance(ids[0], list) else (ids or [])
+    except Exception as e:
+        logger.error("[Indexing] get_ids_by_parent failed: %s", e)
+        return []
+
+def _delete_by_parent(parent_id: str) -> int:
+    try:
+        return vdb.delete(where={"parent_id": parent_id})
+    except Exception as e:
+        logger.error("[Indexing] delete_by_parent failed: %s", e)
+        return 0
+
+def _delete_single(id: str) -> int:
+    try:
+        return vdb.delete(ids=[id])
+    except Exception as e:
+        logger.error("[Indexing] delete_single failed: %s", e)
+        return 0
+
+def _save_metadata(id: str, metadata: Dict[str, Any]) -> Dict[str, Any]:
+    try:
+        return vdb.update_metadata(id=id, metadata=metadata)
+    except Exception as e:
+        logger.error("[Indexing] save_metadata failed: %s", e)
+        raise
+
+def _get_by_id(id: str) -> Dict[str, Any]:
+    try:
+        return vdb.get(ids=[id])
+    except Exception as e:
+        logger.error("[Indexing] get_by_id failed: %s", e)
+        return {"ids": [], "metadatas": []}
+
+# ----------------------------------- Routes -----------------------------------
+
 @indexing_router.get("/count")
 async def count() -> dict:
-    c = chromaClientService.count()
+    c = _collection_count()
     logger.info("[Indexing] Count=%d", c)
     return {"collection_count_after": c}
 
 @indexing_router.get("/list_local_pdfs")
 async def list_local_pdfs() -> dict:
     base = Path(cfg.documents_dir)
+    base.mkdir(parents=True, exist_ok=True)
     pdfs = [p.name for p in base.glob("*.pdf")]
     logger.info("[Indexing] List PDFs n=%d dir=%s", len(pdfs), base)
     return {"folder": str(base), "pdfs": pdfs, "files_count": len(pdfs)}
@@ -59,7 +115,7 @@ async def index(
         logger.error("[Indexing] Multipart error: %s", prelim_error)
         return IndexResponse(
             parent_id=document_id or "", file_name="", file_version=file_version, file_type=file_type,
-            files_count=0, chunks_indexed=0, collection_count_after=chromaClientService.count(),
+            files_count=0, chunks_indexed=0, collection_count_after=_collection_count(),
             file_index_status="failed", file_llm_status="not_applicable", file_index_lapse_time=0.0,
             file_error_info={"stage":"doc-indexing","type":"MultipartError","message":prelim_error}
         )
@@ -70,7 +126,7 @@ async def index(
             logger.error("[Indexing] Empty file stream for 'files'")
             return IndexResponse(
                 parent_id=document_id or "", file_name=files.filename or "", file_version=file_version, file_type=file_type,
-                files_count=0, chunks_indexed=0, collection_count_after=chromaClientService.count(),
+                files_count=0, chunks_indexed=0, collection_count_after=_collection_count(),
                 file_index_status="failed", file_llm_status="not_applicable", file_index_lapse_time=0.0,
                 file_error_info={"stage":"doc-indexing","type":"EmptyFile","message":"No file content received for 'files' (duplicate keys?)"}
             )
@@ -81,14 +137,14 @@ async def index(
         logger.info("[Indexing] File saved path=%s size=%d", dest, len(raw_bytes))
 
         parent_id = (document_id or Path(file_name).stem)
-        existing_ids = chromaClientService.get_ids_by_parent(parent_id)
+        existing_ids = _get_ids_by_parent(parent_id)
         if existing_ids:
             lapse = round((time.perf_counter() - start) * 1000, 2)
             logger.info("[Indexing] Skipped existing parent=%s chunks=%d", parent_id, len(existing_ids))
             return IndexResponse(
                 parent_id=parent_id, file_name=file_name, file_version=file_version, file_type=file_type,
                 files_count=1, chunks_indexed=0, existing_chunks=len(existing_ids),
-                collection_count_after=chromaClientService.count(), file_index_status="skipped",
+                collection_count_after=_collection_count(), file_index_status="skipped",
                 file_llm_status="not_applicable", file_index_lapse_time=lapse,
                 file_error_info={"stage":"doc-indexing","type":"AlreadyIndexed","message":"parent_id exists; use /doc-indexing/reindex"}
             )
@@ -96,15 +152,19 @@ async def index(
         base_meta = {
             "advisor_id": advisor_id, "client_id": client_id, "doc_type": doc_type,
             "version": file_version, "strategy": strategy, "file_type": file_type,
+            "parent_id": parent_id,  # normalized key used across pipeline
             "document_id": parent_id
         }
-        parent_id, chunks = indexer.index_pdf_path(dest, base_meta)
+        new_parent_id, chunks = indexer.index_pdf_path(dest, base_meta)
+        # some indexers may rewrite parent id; prefer returned value
+        parent_id = new_parent_id or parent_id
+
         lapse = round((time.perf_counter() - start) * 1000, 2)
         logger.info("[Indexing] Success parent=%s chunks=%d lapse_ms=%.2f", parent_id, chunks, lapse)
 
         return IndexResponse(
             parent_id=parent_id, file_name=file_name, file_version=file_version, file_type=file_type,
-            files_count=1, chunks_indexed=chunks, collection_count_after=chromaClientService.count(),
+            files_count=1, chunks_indexed=chunks, collection_count_after=_collection_count(),
             file_index_status="success", file_llm_status="not_applicable", file_index_lapse_time=lapse
         )
     except Exception as e:
@@ -112,7 +172,7 @@ async def index(
         logger.exception("[Indexing] Failed: %s lapse_ms=%.2f", e, lapse)
         return IndexResponse(
             parent_id=document_id or "", file_name=files.filename or "", file_version=file_version, file_type=file_type,
-            files_count=1, chunks_indexed=0, collection_count_after=chromaClientService.count(),
+            files_count=1, chunks_indexed=0, collection_count_after=_collection_count(),
             file_index_status="failed", file_llm_status="not_applicable", file_index_lapse_time=lapse,
             file_error_info={"stage":"doc-indexing","type":e.__class__.__name__,"message":str(e)}
         )
@@ -135,18 +195,21 @@ async def reindex(
         base_meta = {
             "advisor_id": advisor_id, "client_id": client_id, "doc_type": doc_type,
             "version": file_version, "strategy": strategy, "file_type": file_type,
+            "parent_id": parent_id,
             "document_id": parent_id
         }
 
-        removed = chromaClientService.delete_by_parent(parent_id)
+        removed = _delete_by_parent(parent_id)
         logger.info("[Indexing] Reindex removed parent=%s chunks=%d", parent_id, removed)
-        parent_id, chunks = indexer.index_pdf_path(path, base_meta)
+        new_parent_id, chunks = indexer.index_pdf_path(path, base_meta)
+        parent_id = new_parent_id or parent_id
+
         lapse = round((time.perf_counter() - start) * 1000, 2)
         logger.info("[Indexing] Reindex success parent=%s chunks=%d lapse_ms=%.2f", parent_id, chunks, lapse)
 
         return IndexResponse(
             parent_id=parent_id, file_name=path.name, file_version=file_version, file_type=file_type,
-            files_count=1, replaced_chunks=removed, chunks_indexed=chunks, collection_count_after=chromaClientService.count(),
+            files_count=1, replaced_chunks=removed, chunks_indexed=chunks, collection_count_after=_collection_count(),
             file_index_status="success", file_llm_status="not_applicable", file_index_lapse_time=lapse
         )
     except HTTPException:
@@ -156,7 +219,7 @@ async def reindex(
         logger.exception("[Indexing] Reindex failed: %s lapse_ms=%.2f", e, lapse)
         return IndexResponse(
             parent_id=document_id or "", file_name=filename, file_version=file_version, file_type=file_type,
-            files_count=1, chunks_indexed=0, collection_count_after=chromaClientService.count(),
+            files_count=1, chunks_indexed=0, collection_count_after=_collection_count(),
             file_index_status="failed", file_llm_status="not_applicable", file_index_lapse_time=lapse,
             file_error_info={"stage":"doc-indexing","type":e.__class__.__name__,"message":str(e)}
         )
@@ -166,19 +229,19 @@ async def delete(id: str = FPath(...)):
     try:
         if "::chunk::" in id:
             logger.info("[Indexing] Delete single id=%s", id)
-            deleted = chromaClientService.delete(id)
+            deleted = _delete_single(id)
             msg = "Deleted 1 record" if deleted else "No record found for given id"
             logger.info("[Indexing] Delete single result=%s", msg)
             return DeleteResponse(
-                id=id, scope="single", deleted=deleted, collection_count_after=chromaClientService.count(), message=msg
+                id=id, scope="single", deleted=deleted, collection_count_after=_collection_count(), message=msg
             )
 
         logger.info("[Indexing] Delete by parent id=%s", id)
-        removed = chromaClientService.delete_by_parent(id)
+        removed = _delete_by_parent(id)
         msg = "Deleted all chunks for parent" if removed else "No chunks found for given parent"
         logger.info("[Indexing] Delete by parent result=%s (removed=%d)", msg, removed)
         return DeleteResponse(
-            id=id, scope="parent", deleted=removed, collection_count_after=chromaClientService.count(), message=msg
+            id=id, scope="parent", deleted=removed, collection_count_after=_collection_count(), message=msg
         )
     except Exception as e:
         logger.exception("[Indexing] Delete failed id=%s: %s", id, e)
@@ -186,13 +249,17 @@ async def delete(id: str = FPath(...)):
 
 @indexing_router.post("/save_metadata", response_model=SaveMetadataResponse)
 async def save_metadata(req: SaveMetadataRequest):
-    updated = chromaClientService.save_metadata(req.id, req.metadata or {})
+    updated = _save_metadata(req.id, req.metadata or {})
     logger.info("[Indexing] Save metadata ok id=%s", req.id)
     return SaveMetadataResponse(id=req.id, metadata=updated)
 
 @indexing_router.get("/get_metadata/{id}")
 async def get_metadata(id: str = FPath(...)) -> dict:
-    res = chromaClientService.get(id)
-    if not res.get("ids"):
+    res = _get_by_id(id)
+    ids = res.get("ids", [[]])
+    if not ids or (isinstance(ids[0], list) and not ids[0]) or (not isinstance(ids[0], list) and not ids):
         raise HTTPException(status_code=404, detail="Document id not found")
-    return {"id": id, "metadata": res["metadatas"][0]}
+    # metadatas shape may be [ [ {..} ] ] or [ {..} ]
+    metas = res.get("metadatas", [[]])
+    metadata = metas[0][0] if (metas and isinstance(metas[0], list) and metas[0]) else (metas[0] if metas else {})
+    return {"id": id, "metadata": metadata}

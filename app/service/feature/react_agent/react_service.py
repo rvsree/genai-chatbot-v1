@@ -2,12 +2,12 @@ from typing import Dict, Any, List
 import time
 from openai import OpenAI
 from app.utils.app_logging import get_logger
-from app.config.app_config import AppConfig
+from app.config.app_config import AppConfig, AppConfigSingleton
 from app.adapters.feature.fin_analysis_agent.tool_adapters import RetrievalTools
 from app.prompts.feature.fin_analysis_agent import fin_analysis_agent_react_prompt
 from app.prompts.registry.prompt_registry import PromptRegistry, PromptBundle
 
-cfg = AppConfig()
+cfg = AppConfigSingleton.instance()
 logger = get_logger(cfg)
 
 # Reuse singleton OpenAI client/model from config

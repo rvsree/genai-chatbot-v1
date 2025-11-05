@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from typing import Any, List
-from app.config.app_config import AppConfig
+from app.config.app_config import AppConfig, AppConfigSingleton
 from app.utils.app_logging import get_logger
 
 # Chroma
@@ -14,9 +14,17 @@ try:
 except Exception:
     OpenAI = None
 
-router = APIRouter(tags=["clients"])
-cfg = AppConfig()
+# router = APIRouter(tags=["clients"])
+# cfg = AppConfig()
+# logger = get_logger(cfg)
+
+router = APIRouter(prefix="/clients", tags=["clients"])
+cfg = AppConfigSingleton.instance()  # Replaces cfg = AppConfig()
 logger = get_logger(cfg)
+
+@router.get("/health")
+async def health():
+    return {"status": "ok"}
 
 @router.post("/openai/heartbeat", summary="Connectivity check using config (no payload)")
 async def test_openai_client():

@@ -2,10 +2,10 @@ from typing import Dict, Any, List
 import json
 from openai import OpenAI
 from app.utils.app_logging import get_logger
-from app.config.app_config import AppConfig
+from app.config.app_config import AppConfig, AppConfigSingleton
 from app.adapters.feature.fin_analysis_agent.tool_adapters import RetrievalTools
 
-cfg = AppConfig()
+cfg = AppConfigSingleton.instance()
 logger = get_logger(cfg)
 client = OpenAI(api_key=cfg.openai_api_key, base_url=cfg.openai_base_url)
 model = cfg.openai_llm_model
